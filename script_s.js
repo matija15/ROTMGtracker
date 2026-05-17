@@ -311,6 +311,7 @@ const data = [
             { id: "cubic-enigma-cloak-s", name: "Cloak of Cubic Enigma", img: "rotmg sheet/sh/coce.png" },
             { id: "shadow-serpent-sidearm-s", name: "Shadow Serpent Sidearm", img: "rotmg sheet/sh/shss.png" },
             { id: "cubic-conundra-seal-s", name: "Seal of Cubic Conundra", img: "rotmg sheet/sh/socc.png" },
+            { id: "ring-of-cubed-wisdom-s", name: "Ring of Cubed Wisdom", img: "rotmg sheet/sh/rocws.png" },
         ]
     },
     {
@@ -371,6 +372,13 @@ const data = [
         ]
     },
     {
+        dungeon: "Plagued Nest",
+        bossImg: "rotmg sheet/dung/plne.png",
+        items: [
+            { id: "green-beehemoth-quiver-s", name: "Green Beehemoth Quiver", img: "rotmg sheet/sh/grbq1.png" },
+        ]
+    },
+    {
         dungeon: "Cultist Hideout",
         bossImg: "rotmg sheet/dung/cuhi.png",
         items: [
@@ -380,12 +388,21 @@ const data = [
             { id: "ritual-robe-s", name: "Ritual Robe", img: "rotmg sheet/sh/riro.png" },
         ]
     },
+     {
+        dungeon: "Infernal Abyss of Demons",
+        bossImg: "rotmg sheet/dung/iaod.gif",
+        items: [
+            { id: "adamantine-helm-s", name: "Adamantine Helm", img: "rotmg sheet/sh/adhe1.png" },
+        ]
+    },
     {
         dungeon: "Fungal Cavern",
         bossImg: "rotmg sheet/dung/fuca.png",
         items: [
             { id: "cave-dweller-trap-s", name: "Cave Dweller Trap", img: "rotmg sheet/sh/cadt.png" },
             { id: "crystal-shield-s", name: "Crystal Shield", img: "rotmg sheet/sh/crsh.png" },
+            { id: "ring-of-decades-s", name: "Ring of Decades", img: "rotmg sheet/sh/riod1.png" },
+            { id: "fungal-breastplate-s", name: "Fungal Breastplate", img: "rotmg sheet/sh/fubr1.png" },
             { id: "sporous-spray-s", name: "Sporous Spray Spell", img: "rotmg sheet/sh/spss.png" },
             { id: "mushroom-tribe-tome-s", name: "Tome of the Mushroom Tribes", img: "rotmg sheet/sh/totm.png" },
         ]
@@ -423,6 +440,13 @@ const data = [
             { id: "laser-pointer-s", name: "Laser Pointer", img: "rotmg sheet/sh/lapo.png" },
             { id: "rust-scepter-s", name: "Scepter of Rust", img: "rotmg sheet/sh/scor.png" },
             { id: "brain-cube-s", name: "Brain Cube", img: "rotmg sheet/sh/brcu.png" },
+        ]
+    },
+    {
+        dungeon: "Advanced Kogbold Steamworks",
+        bossImg: "rotmg sheet/dung/adks.gif",
+        items: [
+            { id: "kogbold-multitool-s", name: "Kogbold Multitool", img: "rotmg sheet/sh/komus.png" },
         ]
     },
     {

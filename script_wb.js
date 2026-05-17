@@ -95,6 +95,7 @@ const data = [
         items: [
             { id: "candy-coated-armor", name: "Candy-Coated Armor", img: "rotmg sheet/wh/caca.png" },
             { id: "bubblegum-bucket", name: "Bubblegum Bucket", img: "rotmg sheet/wh/bubu.png" },
+            { id: "candy-ring", name: "Candy Ring", img: "rotmg sheet/wh/canri.png" },
         ]
     },
     {
@@ -128,6 +129,7 @@ const data = [
         dungeon: "Cursed Library",
         bossImg: "rotmg sheet/dung/curl.gif",
         items: [
+            { id: "ronins-wakizashi", name: "Ronin's Wakizashi", img: "rotmg sheet/wh/ronin.png" },
             { id: "wand-of-hidden-knowledge", name: "Wand of Hidden Knowledge", img: "rotmg sheet/wh/wohk.png" },
             { id: "necronomicon", name: "Necronomicon", img: "rotmg sheet/wh/necr.png" },
             { id: "scholars-seal", name: "Scholar's Seal", img: "rotmg sheet/wh/scse.png" },
@@ -158,6 +160,7 @@ const data = [
         dungeon: "Manor of the Immortals",
         bossImg: "rotmg sheet/dung/moti.png",
         items: [
+            { id: "bone-dagger", name: "Bone Dagger", img: "rotmg sheet/wh/boda.png" },
             { id: "kyuuketsuki-hitogoroshi", name: "Kyuuketsuki Hitogoroshi", img: "rotmg sheet/wh/kyhi.png" },
             { id: "st-abrahams-wand", name: "St. Abraham's Wand", img: "rotmg sheet/wh/staw.png" },
             { id: "tome-of-purification", name: "Tome of Purification", img: "rotmg sheet/wh/toop.png" },
@@ -173,6 +176,21 @@ const data = [
             { id: "plague-poison", name: "Plague Poison", img: "rotmg sheet/wh/plpo.png" },
             { id: "resurrected-warriors-armor", name: "Resurrected Warrior's Armor", img: "rotmg sheet/wh/rewa.png" },
             { id: "amulet-of-dispersion", name: "Amulet of Dispersion", img: "rotmg sheet/wh/amod.png" },
+        ]
+    },
+    {
+        dungeon: "Infernal Abyss of Demons",
+        bossImg: "rotmg sheet/dung/iaod.gif",
+        items: [
+            { id: "adamantine-helm", name: "Adamantine Helm", img: "rotmg sheet/wh/adhe.png" },
+        ]
+    },
+     {
+        dungeon: "Heroic Undead Lair",
+        bossImg: "rotmg sheet/dung/heul.gif",
+        items: [
+            { id: "spirit's-bane", name: "Spirit's Bane", img: "rotmg sheet/wh/spba.png" },
+            { id: "bow-of-the-morning-star", name: "Bow of the Morning Star", img: "rotmg sheet/wh/botms.png" },
         ]
     },
     {
@@ -293,6 +311,7 @@ const data = [
             { id: "midnight-star", name: "Midnight Star", img: "rotmg sheet/wh/mist.png" },
             { id: "vision-of-draconis", name: "Vision of Draconis", img: "rotmg sheet/wh/viod.png" },
             { id: "draconic-insignia", name: "Draconic Insignia", img: "rotmg sheet/wh/drin.png" },
+            { id: "celestial-blade", name: "Celestial Blade", img: "rotmg sheet/wh/cebl.png" },
         ]
     },
     {
@@ -305,6 +324,7 @@ const data = [
             { id: "pharaohs-requiem", name: "Pharaoh's Requiem", img: "rotmg sheet/wh/phre.png" },
             { id: "ring-of-the-nile", name: "Ring of the Nile", img: "rotmg sheet/wh/rotn.png" },
             { id: "tome-of-frigid-protection", name: "Tome of Frigid Protection", img: "rotmg sheet/wh/tofp.png" },
+            { id: "arctic-bow", name: "Arctic Bow", img: "rotmg sheet/wh/arbo1.png" },
         ]
     },
     {
@@ -314,6 +334,9 @@ const data = [
             { id: "cloak-of-cubic-enigma", name: "Cloak of Cubic Enigma", img: "rotmg sheet/wh/coce.png" },
             { id: "shadow-serpent-sidearm", name: "Shadow Serpent Sidearm", img: "rotmg sheet/wh/shss.png" },
             { id: "seal-of-cubic-conundra", name: "Seal of Cubic Conundra", img: "rotmg sheet/wh/socc.png" },
+            { id: "ring-of-cubed-wisdom", name: "Ring of Cubed Wisdom", img: "rotmg sheet/wh/rocw.png" },
+            { id: "morning-square", name: "Morning Square", img: "rotmg sheet/wh/mosq.png" },
+            { id: "the-triangle", name: "The Triangle", img: "rotmg sheet/wh/thtr.png" },
         ]
     },
     {
@@ -372,6 +395,13 @@ const data = [
         ]
     },
     {
+        dungeon: "Plagued Nest",
+        bossImg: "rotmg sheet/dung/plne.png",
+        items: [
+            { id: "green-beehemoth-quiver", name: "Green Beehemoth Quiver", img: "rotmg sheet/wh/grbq.png" },
+        ]
+    },
+    {
         dungeon: "Cultist Hideout",
         bossImg: "rotmg sheet/dung/cuhi.png",
         items: [
@@ -388,6 +418,8 @@ const data = [
         items: [
             { id: "crystallized-worm-spellblade", name: "Crystallized Worm Spellblade", img: "rotmg sheet/wh/crws.png" },
             { id: "crystal-shield", name: "Crystal Shield", img: "rotmg sheet/wh/crsh.png" },
+            { id: "fungal-breastplate", name: "Fungal Breastplate", img: "rotmg sheet/wh/fubr.png" },
+            { id: "ring-of-decades", name: "Ring of Decades", img: "rotmg sheet/wh/riod.png" },
             { id: "sporous-spray-spell", name: "Sporous Spray Spell", img: "rotmg sheet/wh/spss.png" },
             { id: "tome-of-the-mushroom-tribes", name: "Tome of the Mushroom Tribes", img: "rotmg sheet/wh/totmt.png" },
             { id: "cave-dweller-trap", name: "Cave Dweller Trap", img: "rotmg sheet/wh/cadt.png" },
@@ -419,6 +451,13 @@ const data = [
             { id: "scepter-of-rust", name: "Scepter of Rust", img: "rotmg sheet/wh/scor.png" },
             { id: "brain-cube", name: "Brain Cube", img: "rotmg sheet/wh/brcu.png" },
             { id: "kogbold-enhancement-core", name: "Kogbold Enhancement Core", img: "rotmg sheet/wh/koec.png" },
+        ]
+    },
+    {
+        dungeon: "Advanced Kogbold Steamworks",
+        bossImg: "rotmg sheet/dung/adks.gif",
+        items: [
+            { id: "kogbold-multitool", name: "Kogbold Multitool", img: "rotmg sheet/wh/komu1.png" },
         ]
     },
     {
@@ -656,6 +695,7 @@ const data = [
             { id: "noble-mandolin", name: "Noble Mandolin", img: "rotmg sheet/wh/noma.png" },
             { id: "the-forgotten-crown", name: "The Forgotten Crown", img: "rotmg sheet/wh/thfc.png" },
             { id: "chrysalis-of-eternity", name: "Chrysalis of Eternity", img: "rotmg sheet/wh/choe.png" },
+            { id: "the-forgotten-ring", name: "The Forgotten Ring", img: "rotmg sheet/wh/thfr.png" },
         ]
     },
     {
