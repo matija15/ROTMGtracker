@@ -192,9 +192,8 @@ const data = [
         bossImg: "rotmg sheet/dung/ocet.png",
         items: [
             { id: "coral-bow-s", name: "Coral Bow", img: "rotmg sheet/sh/cobo.png" },
-            { id: "coral-venom-trap-s", name: "Coral Venom Trap", img: "rotmg sheet/sh/covt.png" },
-            { id: "sharktooth-sigil-s", name: "Sharktooth Sigil", img: "rotmg sheet/sh/shsi.png" },
-            { id: "coral-silk-armor-s", name: "Coral Silk Armor", img: "rotmg sheet/sh/cosa.png" },
+            { id: "coral-venom-trap-s", name: "Coral Venom Trap", img: "rotmg sheet/sh/covet.png" },
+            { id: "coral-silk-armor-s", name: "Coral Silk Armor", img: "rotmg sheet/sh/silkarmor.png" },
             { id: "coral-ring-s", name: "Coral Ring", img: "rotmg sheet/sh/corit.png" },    
         ]
     },
