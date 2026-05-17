@@ -1237,7 +1237,7 @@ const data = [
  updateProgress(); 
 
 
- // RESET BUTTON
+ // RESET BUTTON //
 
 
  const resetBtn = document.getElementById('reset-btn');
@@ -1256,7 +1256,7 @@ const data = [
  });
 
 
- // SEARCH FUNCTIONALITY
+ // SEARCH FUNCTIONALITY //
 
 
  const searchBar = document.getElementById("search-bar");
