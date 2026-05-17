@@ -93,7 +93,7 @@ const data = [
         dungeon: "Candyland Hunting Grounds",
         bossImg: "rotmg sheet/dung/cahug.png",
         items: [
-            { id: "candy-coated-armor-s", name: "Candy-Coated Armor", img: "rotmg sheet/sh/caco.png" },
+            { id: "candy-coated-armor-s", name: "Candy-Coated Armor", img: "rotmg sheet/sh/candy.png" },
             { id: "candy-ring-s", name: "Candy Ring", img: "rotmg sheet/sh/canr.png" },
         ]
     },
