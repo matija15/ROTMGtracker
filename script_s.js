@@ -128,7 +128,7 @@ const data = [
         dungeon: "Cursed Library",
         bossImg: "rotmg sheet/dung/curl.gif",
         items: [
-            { id: "ronin-wakizashi-s", name: "Ronin's Wakizashi", img: "rotmg sheet/sh/waki.png" },
+            { id: "ronin-wakizashi-s", name: "Ronin's Wakizashi", img: "rotmg sheet/sh/rowas.png" },
             { id: "hidden-knowledge-wand-s", name: "Wand of Hidden Knowledge", img: "rotmg sheet/sh/wohk.png" },
             { id: "necronomicon-s", name: "Necronomicon", img: "rotmg sheet/sh/necr.png" },
             { id: "scholar-seal-s", name: "Scholar's Seal", img: "rotmg sheet/sh/scse.png" },
@@ -195,7 +195,7 @@ const data = [
             { id: "coral-venom-trap-s", name: "Coral Venom Trap", img: "rotmg sheet/sh/covt.png" },
             { id: "sharktooth-sigil-s", name: "Sharktooth Sigil", img: "rotmg sheet/sh/shsi.png" },
             { id: "coral-silk-armor-s", name: "Coral Silk Armor", img: "rotmg sheet/sh/cosa.png" },
-            { id: "coral-ring-s", name: "Coral Ring", img: "rotmg sheet/sh/cori.png" },
+            { id: "coral-ring-s", name: "Coral Ring", img: "rotmg sheet/sh/coral.png" },    
         ]
     },
     {
@@ -319,7 +319,7 @@ const data = [
         bossImg: "rotmg sheet/dung/laos.png",
         items: [
             { id: "endless-torment-skull-s", name: "Skull of Endless Torment", img: "rotmg sheet/sh/soet.png" },
-            { id: "crossing-fires-wakizashi-s", name: "Wakizashi of Crossing Fires", img: "rotmg sheet/sh/wocf.png" },
+            { id: "crossing-fires-wakizashi-s", name: "Wakizashi of Crossing Fires", img: "rotmg sheet/sh/waki.png" },
             { id: "igneous-starblossom-s", name: "Igneous Starblossom", img: "rotmg sheet/sh/igst.png" },
         ]
     },
