@@ -1,4 +1,4 @@
-const data = [
+data = [
     {
         dungeon: "Pirate Cave",
         bossImg: "rotmg sheet/dung/pirc.png",
@@ -592,6 +592,23 @@ const data = [
             { id: "vial-of-soul-extract", name: "Vial of Soul Extract", img: "rotmg sheet/wh/vose.png" },
         ]
     },
+         {
+        dungeon: "Moonlight Village",
+        bossImg: "rotmg sheet/dung/movi.png",
+        items: [
+            { id: "sages-wakibiki", name: "Sage's Wakibiki", img: "rotmg sheet/wh/sawa.png" },
+            { id: "ethereal-happi", name: "Ethereal Happi", img: "rotmg sheet/wh/etha.png" },
+            { id: "flowering-kimono", name: "Flowering Kimono", img: "rotmg sheet/wh/flki.png" },
+            { id: "rain-maker", name: "Rain Maker", img: "rotmg sheet/wh/rama.png" },
+            { id: "taiko-drums", name: "Taiko Drums", img: "rotmg sheet/wh/tadr.png" },
+            { id: "elegant-parasol", name: "Elegant Parasol", img: "rotmg sheet/wh/elpa.png" },
+            { id: "makakoyumi", name: "Makakoyumi", img: "rotmg sheet/wh/maka.png" },
+            { id: "tezutsu-hanabi", name: "Tezutsu Hanabi", img: "rotmg sheet/wh/teha.png" },
+            { id: "kagenohikari", name: "Kagenohikari", img: "rotmg sheet/wh/kage.png" },
+            { id: "master-fishing-rod", name: "Master Fishing Rod", img: "rotmg sheet/wh/mafr.png" },
+            { id: "concentrated-soul-fire", name: "Concentrated Soul Fire", img: "rotmg sheet/wh/cosf.png" },
+        ]
+    },
     {
         dungeon: "Hidden Interregnum",
         bossImg: "rotmg sheet/dung/hiin.gif",
@@ -656,23 +673,6 @@ const data = [
             { id: "cheater-robe", name: "Cheater Robe", img: "rotmg sheet/wh/chro.png" },
             { id: "cheater-heavy-armor", name: "Cheater Heavy Armor", img: "rotmg sheet/wh/chha.png" },
             { id: "omni-impotence-ring", name: "Omni-Impotence Ring", img: "rotmg sheet/wh/omim.png" },
-        ]
-    },
-       {
-        dungeon: "Moonlight Village",
-        bossImg: "rotmg sheet/dung/movi.png",
-        items: [
-            { id: "sages-wakibiki", name: "Sage's Wakibiki", img: "rotmg sheet/wh/sawa.png" },
-            { id: "ethereal-happi", name: "Ethereal Happi", img: "rotmg sheet/wh/etha.png" },
-            { id: "flowering-kimono", name: "Flowering Kimono", img: "rotmg sheet/wh/flki.png" },
-            { id: "rain-maker", name: "Rain Maker", img: "rotmg sheet/wh/rama.png" },
-            { id: "taiko-drums", name: "Taiko Drums", img: "rotmg sheet/wh/tadr.png" },
-            { id: "elegant-parasol", name: "Elegant Parasol", img: "rotmg sheet/wh/elpa.png" },
-            { id: "makakoyumi", name: "Makakoyumi", img: "rotmg sheet/wh/maka.png" },
-            { id: "tezutsu-hanabi", name: "Tezutsu Hanabi", img: "rotmg sheet/wh/teha.png" },
-            { id: "kagenohikari", name: "Kagenohikari", img: "rotmg sheet/wh/kage.png" },
-            { id: "master-fishing-rod", name: "Master Fishing Rod", img: "rotmg sheet/wh/mafr.png" },
-            { id: "concentrated-soul-fire", name: "Concentrated Soul Fire", img: "rotmg sheet/wh/cosf.png" },
         ]
     },
     {
@@ -830,3 +830,21 @@ const data = [
         }
     });
  });
+ 
+ window.onload = function() {
+    const topBtn = document.getElementById("topBtn");
+
+    if (topBtn) {
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                topBtn.style.display = "block";
+            } else {
+                topBtn.style.display = "none";
+            }
+        };
+
+        topBtn.onclick = function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+    }
+};

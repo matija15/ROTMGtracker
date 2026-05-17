@@ -1,4 +1,4 @@
-const data = [
+data = [
     {
         dungeon: "Acidified Assassin Set",
         bossImg: "rotmg sheet/st/acidas/acidified assassin.png",
@@ -949,5 +949,24 @@ document.getElementById('reset-btn').addEventListener('click', () => {
         location.reload();
     }
 });
+
+
+window.onload = function() {
+    const topBtn = document.getElementById("topBtn");
+
+    if (topBtn) {
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                topBtn.style.display = "block";
+            } else {
+                topBtn.style.display = "none";
+            }
+        };
+
+        topBtn.onclick = function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+    }
+};
 
 updateProgress();

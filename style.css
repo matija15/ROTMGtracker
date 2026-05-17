@@ -178,3 +178,26 @@ body {
     text-decoration: underline;
 }
 
+#topBtn {
+    display: none; /* Let JS handle showing it */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: #1a1a1a;
+    color: #c8a951;
+    border: 2px solid #c8a951;
+    border-radius: 5px;
+    z-index: 9999;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#topBtn:hover {
+    background-color: #c8a951;
+    color: #1a1a1a;
+}
