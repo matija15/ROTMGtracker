@@ -340,7 +340,7 @@ const data = [
         bossImg: "rotmg sheet/dung/hite.png",
         items: [
             { id: "bow", name: "B.O.W.", img: "rotmg sheet/wh/bow.png" },
-            { id: "boom", name: "B.O.O.M.", img: "rotmg sheet/wh/boom.png" },
+            { id: "staff", name: "S.T.A.F.F.", img: "rotmg sheet/wh/staff.png" },
             { id: "quiver", name: "Q.U.I.V.E.R.", img: "rotmg sheet/wh/quiver.png" },
             { id: "sheath", name: "S.H.E.A.T.H.", img: "rotmg sheet/wh/sheath.png" },
             { id: "eye", name: "E.Y.E.", img: "rotmg sheet/wh/eye.png" },
