@@ -895,10 +895,10 @@ if (grid) {
                 const finalLocation = item.location || section.dungeon;
                 const finalDungeonImg = item.dungeonImg || section.bossImg;
                 
-                // Change this part in your script.js
+                
                     const bossIcons = (item.bossSources && item.bossSources.length > 0) 
                     ? item.bossSources.map(src => `<img src="${src}" style="width:30px; height:30px; image-rendering:pixelated; margin-right:5px;">`).join('')
-                    : ""; // This now returns an empty string if you haven't put images in yet
+                    : ""; 
 
                  tooltip.innerHTML = `
                     <div style="font-weight: bold; font-size: 15px; margin-bottom: 8px; border-bottom: 1px solid #c8a951; padding-bottom: 4px;">
