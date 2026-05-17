@@ -135,3 +135,46 @@ body {
     border-radius: 8px;
     font-weight: bold;
 }
+
+/* Style for the button that is NOT active */
+.nav-btn {
+    background: #222;
+    color: #888;
+    border: 1px solid #444;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Style for the ACTIVE page button */
+.nav-btn.active {
+    background: #fdfdfd; 
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(200, 169, 81, 0.5);
+}
+/*this code is for email and paypal*/
+.support-container, .contact-section {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid #c8a951;
+}
+
+.paypal-button {
+    background-color: #ffc439;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.email-link {
+    color: #00ffcc;
+    text-decoration: underline;
+}
+
