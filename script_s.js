@@ -401,7 +401,7 @@ const data = [
         items: [
             { id: "cave-dweller-trap-s", name: "Cave Dweller Trap", img: "rotmg sheet/sh/cadt.png" },
             { id: "crystal-shield-s", name: "Crystal Shield", img: "rotmg sheet/sh/crsh.png" },
-            { id: "ring-of-decades-s", name: "Ring of Decades", img: "rotmg sheet/sh/riod1.png" },
+            { id: "ring-of-decades-s", name: "Ring of Decades", img: "rotmg sheet/sh/riod.png" },
             { id: "fungal-breastplate-s", name: "Fungal Breastplate", img: "rotmg sheet/sh/fubr1.png" },
             { id: "sporous-spray-s", name: "Sporous Spray Spell", img: "rotmg sheet/sh/spss.png" },
             { id: "mushroom-tribe-tome-s", name: "Tome of the Mushroom Tribes", img: "rotmg sheet/sh/totm.png" },
