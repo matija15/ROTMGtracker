@@ -667,7 +667,7 @@ const data = [
             { id: "sciss-claw", name: "C.L.A.W.", img: "rotmg sheet/st/sciss/claw.png", location: "High Tech Terror", dungeonImg: "rotmg sheet/dung/hite.png", bossSources: ["rotmg sheet/mini/fera.png"] },
             { id: "sciss-boom", name: "B.O.O.M.", img: "rotmg sheet/st/sciss/boom.png", location: "High Tech Terror", dungeonImg: "rotmg sheet/dung/hite.png", bossSources: ["rotmg sheet/mini/fera.png"] },
             { id: "sciss-armor", name: "A.R.M.O.R.", img: "rotmg sheet/st/sciss/armor.png", location: "High Tech Terror", dungeonImg: "rotmg sheet/dung/hite.png", bossSources: ["rotmg sheet/mini/aegi.png"] },
-            { id: "sciss-con", name: "C.O.N.T.R.O.L.L.E.R.", img: "rotmg sheet/st/sciss/con.png", location: "High Tech Terror", dungeonImg: "rotmg sheet/dung/hite.png", bossSources: ["rotmg sheet/mini/aegi.png"] }
+            { id: "sciss-con", name: "C.O.N.T.R.O.L.L.E.R.", img: "rotmg sheet/st/sciss/ring.png", location: "High Tech Terror", dungeonImg: "rotmg sheet/dung/hite.png", bossSources: ["rotmg sheet/mini/aegi.png"] }
         ]
     },
     {
