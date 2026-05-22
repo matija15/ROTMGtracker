@@ -7,52 +7,143 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="rotmg sheet/whbaic.png">
 </head>
-<link rel="icon" type="image/png" href="rotmg sheet/whbaic.png">
 <body>
     <div id="tooltip"></div>
+    
     <div class="top-controls">
         <input type="text" id="search-bar" placeholder="Search...">
         <button id="reset-btn">Reset</button>
+        
+        <div class="info-wrapper">
+            <button id="info-btn">ⓘ</button>
+            <div class="custom-tooltip">
+                <strong>Storage Info:</strong><br>
+                Your progress is saved locally in this browser. Clearing cache or history will reset your tracker!
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-container">
+        
+        <div class="filter-group">
+            <label>Class</label>
+            <div class="custom-select-wrapper">
+                <div class="custom-select-trigger" id="class-menu-trigger" data-selected-value="all">
+                    <span style="display:inline-block; width:22px; height:22px; text-align:center; line-height:22px; color:#c8a951;">★</span>
+                    <span id="selected-class-label">Class</span>
+                </div>
+                <div class="custom-options-panel" id="class-options-panel">
+                    <div class="custom-option-item" data-value="all">
+                        <span style="display:inline-block; width:24px; text-align:center; color:#c8a951;">★</span>
+                        <span>Class</span>
+                    </div>
+                    <div class="custom-option-item" data-value="rogue">
+                        <img src="rotmg sheet/class/rogue.png"><span>Rogue</span>
+                    </div>
+                    <div class="custom-option-item" data-value="archer">
+                        <img src="rotmg sheet/class/archer.png"><span>Archer</span>
+                    </div>
+                    <div class="custom-option-item" data-value="wizard">
+                        <img src="rotmg sheet/class/wizard.png"><span>Wizard</span>
+                    </div>
+                    <div class="custom-option-item" data-value="priest">
+                        <img src="rotmg sheet/class/priest.png"><span>Priest</span>
+                    </div>
+                    <div class="custom-option-item" data-value="warrior">
+                        <img src="rotmg sheet/class/warrior.png"><span>Warrior</span>
+                    </div>
+                    <div class="custom-option-item" data-value="knight">
+                        <img src="rotmg sheet/class/knight.png"><span>Knight</span>
+                    </div>
+                    <div class="custom-option-item" data-value="paladin">
+                        <img src="rotmg sheet/class/paladin.png"><span>Paladin</span>
+                    </div>
+                    <div class="custom-option-item" data-value="assassin">
+                        <img src="rotmg sheet/class/assassin.png"><span>Assassin</span>
+                    </div>
+                    <div class="custom-option-item" data-value="necromancer">
+                        <img src="rotmg sheet/class/necromancer.png"><span>Necromancer</span>
+                    </div>
+                    <div class="custom-option-item" data-value="huntress">
+                        <img src="rotmg sheet/class/huntress.png"><span>Huntress</span>
+                    </div>
+                    <div class="custom-option-item" data-value="mystic">
+                        <img src="rotmg sheet/class/mystic.png"><span>Mystic</span>
+                    </div>
+                    <div class="custom-option-item" data-value="trickster">
+                        <img src="rotmg sheet/class/trickster.png"><span>Trickster</span>
+                    </div>
+                    <div class="custom-option-item" data-value="sorcerer">
+                        <img src="rotmg sheet/class/sorcerer.png"><span>Sorcerer</span>
+                    </div>
+                    <div class="custom-option-item" data-value="ninja">
+                        <img src="rotmg sheet/class/ninja.png"><span>Ninja</span>
+                    </div>
+                    <div class="custom-option-item" data-value="samurai">
+                        <img src="rotmg sheet/class/samurai.png"><span>Samurai</span>
+                    </div>
+                    <div class="custom-option-item" data-value="bard">
+                        <img src="rotmg sheet/class/bard.png"><span>Bard</span>
+                    </div>
+                    <div class="custom-option-item" data-value="summoner">
+                        <img src="rotmg sheet/class/summoner.png"><span>Summoner</span>
+                    </div>
+                    <div class="custom-option-item" data-value="kensei">
+                        <img src="rotmg sheet/class/kensei.png"><span>Kensei</span>
+                    </div>
+                    <div class="custom-option-item" data-value="druid">
+                        <img src="rotmg sheet/class/druid.png"><span>Druid</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-group">
+            <label>Type</label>
+            <select id="type-filter" class="filter-select">
+                <option value="all">All Types</option>
+                <option value="weapon">Weapons</option>
+                <option value="ability">Abilities</option>
+                <option value="armor">Armors</option>
+                <option value="ring">Rings</option>
+            </select>
+        </div>
+
+        <div class="checkbox-group">
+            <label class="checkbox-label">
+                <input type="checkbox" id="missing-filter"> Missing Only
+            </label>
+        </div>
     </div>
 
     <div class="page-nav">
-        <a href="index.html" class="nav-btn active">ST Sets</a>
-        <a href="shiny.html" class="nav-btn">Shiny</a>
-        <a href="whitebags.html" class="nav-btn">White Bags</a>
+        <a class="nav-btn active" href="index.html">ST Sets</a>
+        <a class="nav-btn" href="shiny.html">Shiny</a>
+        <a class="nav-btn" href="whitebags.html">White Bags</a>
     </div>
-    <div id="progress-bar-container">
-    <div id="progress-bar-fill"></div>
     
+    <div id="progress-bar-container">
+        <div id="progress-bar-fill"></div>
     </div>
     <div id="progress-label">0 / 0 obtained</div>
 
     <div id="tracker-grid" class="grid"></div>
 
-    <script src="script.js"></script>
-  
-    
-
- <footer style="margin-top: 50px; padding: 20px; border-top: 1px solid #c8a951; text-align: center; background: rgba(0,0,0,0.3);">
-    <div style="margin-bottom: 15px;">
-        <p style="color: #c8a951; font-weight: bold;">Enjoying the tracker?</p>
-        <a href="https://buymeacoffee.com/malimate" target="_blank" 
-           style="background: #ffc439; color: black; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold;">
-           Support the Project (Buy Me a Coffee)
-        </a>
-    </div>
-    
-    <div>
-        <p style="font-size: 14px;">Have ideas or found a bug?</p>
-        <a href="mailto:rotmgtracker1@gmail.com?subject=RotMG Tracker Idea" style="color: #00ffcc;">
-            Send me an Email
-        </a>
-    </div>
-</footer>
-
-    <div id="tracker-grid" class="grid"></div>
-
     <footer style="margin-top: 50px; padding: 20px; border-top: 1px solid #c8a951; text-align: center; background: rgba(0,0,0,0.3);">
-        </footer>
+        <div style="margin-bottom: 15px;">
+            <p style="color: #c8a951; font-weight: bold;">Enjoying the tracker?</p>
+            <a href="https://buymeacoffee.com/malimate" target="_blank" 
+               style="background: #ffc439; color: black; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold;">
+               Support the Project (Buy Me a Coffee)
+            </a>
+        </div>
+        <div>
+            <p style="font-size: 14px;">Have ideas or found a bug?</p>
+            <a href="mailto:rotmgtracker1@gmail.com?subject=RotMG Tracker Idea" style="color: #00ffcc;">
+                Send me an Email
+            </a>
+        </div>
+    </footer>
 
     <button id="topBtn" title="Go to top">↑</button>
 

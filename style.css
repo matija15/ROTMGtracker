@@ -101,6 +101,7 @@ body {
     margin-bottom: 20px;
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
 #search-bar {
@@ -136,7 +137,6 @@ body {
     font-weight: bold;
 }
 
-/* Style for the button that is NOT active */
 .nav-btn {
     background: #222;
     color: #888;
@@ -146,7 +146,6 @@ body {
     transition: 0.3s;
 }
 
-/* Style for the ACTIVE page button */
 .nav-btn.active {
     background: #fdfdfd; 
     color: #000;
@@ -154,7 +153,7 @@ body {
     border: 1px solid #fff;
     box-shadow: 0 0 10px rgba(200, 169, 81, 0.5);
 }
-/*this code is for email and paypal*/
+
 .support-container, .contact-section {
     text-align: center;
     margin-top: 40px;
@@ -179,7 +178,7 @@ body {
 }
 
 #topBtn {
-    display: none; /* Let JS handle showing it */
+    display: none; 
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -200,4 +199,198 @@ body {
 #topBtn:hover {
     background-color: #c8a951;
     color: #1a1a1a;
+}
+
+.info-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+#info-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: #c8a951;
+    border: 1px solid #c8a951;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+#info-btn:hover {
+    background: #c8a951;
+    color: #121212;
+    box-shadow: 0 0 8px rgba(200, 169, 81, 0.6);
+}
+
+.info-wrapper .custom-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    width: 240px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: left;
+    border: 1px solid #c8a951;
+    border-radius: 6px;
+    padding: 12px;
+    position: absolute;
+    z-index: 999;
+    top: 125%; 
+    right: 0;   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+    line-height: 1.4;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none; 
+}
+
+.info-wrapper:hover .custom-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* --- BRAND NEW VISUAL FILTER STYLES --- */
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #1e1e2e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+}
+
+.filter-group label {
+    font-size: 11px;
+    font-weight: bold;
+    color: #c8a951;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Custom Visual Class Box Menu Button */
+.custom-select-trigger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 12px;
+    background: #121212;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 160px;
+    height: 34px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.custom-select-trigger:hover {
+    border-color: #c8a951;
+}
+
+.custom-select-trigger img {
+    width: 22px;
+    height: 22px;
+    image-rendering: pixelated;
+    object-fit: contain;
+}
+
+/* Standard Dropdown fields matching the layout style */
+.filter-select {
+    padding: 6px 12px;
+    background: #121212;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 140px;
+    height: 34px;
+}
+
+.filter-select:focus {
+    border-color: #c8a951;
+    outline: none;
+}
+
+/* Dropdown Menu Options Panel List */
+.custom-options-panel {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #161625;
+    border: 1px solid #c8a951;
+    border-radius: 6px;
+    margin-top: 5px;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+    width: 200px;
+}
+
+.custom-options-panel.open {
+    display: block;
+}
+
+.custom-option-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+}
+
+.custom-option-item:hover {
+    background: rgba(200, 169, 81, 0.15);
+}
+
+.custom-option-item img {
+    width: 24px;
+    height: 24px;
+    image-rendering: pixelated;
+    object-fit: contain;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+.checkbox-label input[type="checkbox"] {
+    accent-color: #c8a951;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
