@@ -53,8 +53,8 @@ const data = [
         bossImg: "rotmg sheet/dung/snake.gif",
         graves: 2.5,
         items: [
-            { id: "wand-of-the-bulwark", name: "Wand of the Bulwark", img: "rotmg sheet/wh/wotb.png", difficulty: "medium", type: "weapon" },
-            { id: "snake-charmer-pungi", name: "Snake Charmer Pungi", img: "rotmg sheet/wh/sncp.png", difficulty: "medium", type: "ability" },
+            { id: "wand-of-the-bulwark", name: "Wand of the Bulwark", img: "rotmg sheet/wh/wotb.png", difficulty: "easy", type: "weapon" },
+            { id: "snake-charmer-pungi", name: "Snake Charmer Pungi", img: "rotmg sheet/wh/sncp.png", difficulty: "easy", type: "ability" },
             { id: "snakeskin-armor", name: "Snakeskin Armor", img: "rotmg sheet/wh/snar.png", difficulty: "easy", type: "armor" },
             { id: "snake-eye-ring", name: "Snake Eye Ring", img: "rotmg sheet/wh/sner.png", difficulty: "easy", type: "ring" }
         ]
@@ -64,10 +64,10 @@ const data = [
         bossImg: "rotmg sheet/dung/sprit.gif",
         graves: 2.5,
         items: [
-            { id: "sprite-wand", name: "Sprite Wand", img: "rotmg sheet/wh/spwa.png", difficulty: "medium", type: "weapon" },
-            { id: "staff-of-extreme-prejudice", name: "Staff of Extreme Prejudice", img: "rotmg sheet/wh/soep.png", difficulty: "medium", type: "weapon" },
-            { id: "cloak-of-the-planewalker", name: "Cloak of the Planewalker", img: "rotmg sheet/wh/cotp.png", difficulty: "medium", type: "ability" },
-            { id: "mace-of-the-celestial-forest", name: "Mace of the Celestial Forest", img: "rotmg sheet/wh/motcf.png", difficulty: "medium", type: "ability" }
+            { id: "sprite-wand", name: "Sprite Wand", img: "rotmg sheet/wh/spwa.png", difficulty: "easy", type: "weapon" },
+            { id: "staff-of-extreme-prejudice", name: "Staff of Extreme Prejudice", img: "rotmg sheet/wh/soep.png", difficulty: "easy", type: "weapon" },
+            { id: "cloak-of-the-planewalker", name: "Cloak of the Planewalker", img: "rotmg sheet/wh/cotp.png", difficulty: "easy", type: "ability" },
+            { id: "mace-of-the-celestial-forest", name: "Mace of the Celestial Forest", img: "rotmg sheet/wh/motcf.png", difficulty: "easy", type: "ability" }
         ]
     },
     {
@@ -75,7 +75,7 @@ const data = [
         bossImg: "rotmg sheet/dung/coat.png",
         graves: 2.5,
         items: [
-            { id: "jewel-eye-katana", name: "Jewel Eye Katana", img: "rotmg sheet/wh/jeek.png", difficulty: "medium", type: "weapon" }
+            { id: "jewel-eye-katana", name: "Jewel Eye Katana", img: "rotmg sheet/wh/jeek.png", difficulty: "easy", type: "weapon" }
         ]
     },
     {
@@ -83,9 +83,9 @@ const data = [
         bossImg: "rotmg sheet/dung/ancr.png",
         graves: 3,
         items: [
-            { id: "arcane-rapier", name: "Arcane Rapier", img: "rotmg sheet/wh/arra.png", difficulty: "medium", type: "weapon" },
-            { id: "amber-encrusted-helmet", name: "Amber Encrusted Helmet", img: "rotmg sheet/wh/ameh.png", difficulty: "medium", type: "ability" },
-            { id: "sandstone-seal", name: "Sandstone Seal", img: "rotmg sheet/wh/sase.png", difficulty: "medium", type: "ability" }
+            { id: "arcane-rapier", name: "Arcane Rapier", img: "rotmg sheet/wh/arra.png", difficulty: "easy", type: "weapon" },
+            { id: "amber-encrusted-helmet", name: "Amber Encrusted Helmet", img: "rotmg sheet/wh/ameh.png", difficulty: "easy", type: "ability" },
+            { id: "sandstone-seal", name: "Sandstone Seal", img: "rotmg sheet/wh/sase.png", difficulty: "easy", type: "ability" }
         ]
     },
     {
@@ -93,11 +93,11 @@ const data = [
         bossImg: "rotmg sheet/dung/magw.png",
         graves: 3,
         items: [
-            { id: "spirit-staff", name: "Spirit Staff", img: "rotmg sheet/wh/spst.png", difficulty: "medium", type: "weapon" },
-            { id: "enchantment-orb", name: "Enchantment Orb", img: "rotmg sheet/wh/enor.png", difficulty: "medium", type: "ability" },
-            { id: "shield-of-flowing-clarity", name: "Shield of Flowing Clarity", img: "rotmg sheet/wh/sofc.png", difficulty: "medium", type: "ability" },
-            { id: "woodland-robe", name: "Woodland Robe", img: "rotmg sheet/wh/woro.png", difficulty: "medium", type: "armor" },
-            { id: "fairy-ring", name: "Fairy Ring", img: "rotmg sheet/wh/fari.png", difficulty: "medium", type: "ring" }
+            { id: "spirit-staff", name: "Spirit Staff", img: "rotmg sheet/wh/spst.png", difficulty: "easy", type: "weapon" },
+            { id: "enchantment-orb", name: "Enchantment Orb", img: "rotmg sheet/wh/enor.png", difficulty: "easy", type: "ability" },
+            { id: "shield-of-flowing-clarity", name: "Shield of Flowing Clarity", img: "rotmg sheet/wh/sofc.png", difficulty: "easy", type: "ability" },
+            { id: "woodland-robe", name: "Woodland Robe", img: "rotmg sheet/wh/woro.png", difficulty: "easy", type: "armor" },
+            { id: "fairy-ring", name: "Fairy Ring", img: "rotmg sheet/wh/fari.png", difficulty: "easy", type: "ring" }
         ]
     },
     {
@@ -202,8 +202,8 @@ const data = [
         bossImg: "rotmg sheet/dung/iaod.gif",
         graves: 6,
         items: [
-            { id: "adamantine-helm", name: "Adamantine Helm", img: "rotmg sheet/wh/adhe.png", difficulty: "hard", type: "ability" },
-            { id: "sword-of-illumination", name: "Sword of Illumination", img: "rotmg sheet/wh/swoi.png", difficulty: "hard", type: "weapon" }
+            { id: "adamantine-helm", name: "Adamantine Helm", img: "rotmg sheet/wh/adhe.png", difficulty: "medium", type: "ability" },
+            { id: "sword-of-illumination", name: "Sword of Illumination", img: "rotmg sheet/wh/swoi.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -211,8 +211,8 @@ const data = [
         bossImg: "rotmg sheet/dung/heul.gif",
         graves: 5,
         items: [
-            { id: "spirit-bane", name: "Spirit's Bane", img: "rotmg sheet/wh/spba.png", difficulty: "hard", type: "ability" },
-            { id: "bow-of-the-morning-star", name: "Bow of the Morning Star", img: "rotmg sheet/wh/botms.png", difficulty: "hard", type: "weapon" }
+            { id: "spirit-bane", name: "Spirit's Bane", img: "rotmg sheet/wh/spba.png", difficulty: "medium", type: "ability" },
+            { id: "bow-of-the-morning-star", name: "Bow of the Morning Star", img: "rotmg sheet/wh/botms.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -365,12 +365,12 @@ const data = [
         bossImg: "rotmg sheet/dung/thdi.gif",
         graves: 6,
         items: [
-            { id: "cloak-of-cubic-enigma", name: "Cloak of Cubic Enigma", img: "rotmg sheet/wh/coce.png", difficulty: "hard", type: "ability" },
-            { id: "shadow-serpent-sidearm", name: "Shadow Serpent Sidearm", img: "rotmg sheet/wh/shss.png", difficulty: "hard", type: "ability" },
-            { id: "seal-of-cubic-conundra", name: "Seal of Cubic Conundra", img: "rotmg sheet/wh/socc.png", difficulty: "hard", type: "ability" },
-            { id: "ring-of-cubed-wisdom", name: "Ring of Cubed Wisdom", img: "rotmg sheet/wh/rocw.png", difficulty: "hard", type: "ring" },
-            { id: "morning-square", name: "Morning Square", img: "rotmg sheet/wh/mosq.png", difficulty: "hard", type: "weapon" },
-            { id: "the-triangle", name: "The Triangle", img: "rotmg sheet/wh/thtr.png", difficulty: "hard", type: "ability" }
+            { id: "cloak-of-cubic-enigma", name: "Cloak of Cubic Enigma", img: "rotmg sheet/wh/coce.png", difficulty: "medium", type: "ability" },
+            { id: "shadow-serpent-sidearm", name: "Shadow Serpent Sidearm", img: "rotmg sheet/wh/shss.png", difficulty: "medium", type: "ability" },
+            { id: "seal-of-cubic-conundra", name: "Seal of Cubic Conundra", img: "rotmg sheet/wh/socc.png", difficulty: "medium", type: "ability" },
+            { id: "ring-of-cubed-wisdom", name: "Ring of Cubed Wisdom", img: "rotmg sheet/wh/rocw.png", difficulty: "medium", type: "ring" },
+            { id: "morning-square", name: "Morning Square", img: "rotmg sheet/wh/mosq.png", difficulty: "medium", type: "weapon" },
+            { id: "the-triangle", name: "The Triangle", img: "rotmg sheet/wh/thtr.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -378,9 +378,9 @@ const data = [
         bossImg: "rotmg sheet/dung/laos.png",
         graves: 6,
         items: [
-            { id: "skull-of-endless-torment", name: "Skull of Endless Torment", img: "rotmg sheet/wh/soet.png", difficulty: "hard", type: "ability" },
-            { id: "wakizashi-of-crossing-fires", name: "Wakizashi of Crossing Fires", img: "rotmg sheet/wh/wocf.png", difficulty: "hard", type: "ability" },
-            { id: "igneous-starblossom", name: "Igneous Starblossom", img: "rotmg sheet/wh/igst.png", difficulty: "hard", type: "ability" }
+            { id: "skull-of-endless-torment", name: "Skull of Endless Torment", img: "rotmg sheet/wh/soet.png", difficulty: "medium", type: "ability" },
+            { id: "wakizashi-of-crossing-fires", name: "Wakizashi of Crossing Fires", img: "rotmg sheet/wh/wocf.png", difficulty: "medium", type: "ability" },
+            { id: "igneous-starblossom", name: "Igneous Starblossom", img: "rotmg sheet/wh/igst.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -388,10 +388,10 @@ const data = [
         bossImg: "rotmg sheet/dung/seth.png",
         graves: 6.5,
         items: [
-            { id: "tlatoanis-shroud", name: "Tlatoani's Shroud", img: "rotmg sheet/wh/tlsh.png", difficulty: "hard", type: "armor" },
-            { id: "tezcacoatls-tail", name: "Tezcacoatl's Tail", img: "rotmg sheet/wh/teta.png", difficulty: "hard", type: "weapon" },
-            { id: "sealed-crystal-skull", name: "Sealed Crystal Skull", img: "rotmg sheet/wh/secs.png", difficulty: "hard", type: "ability" },
-            { id: "penetrating-blast-spell", name: "Penetrating Blast Spell", img: "rotmg sheet/wh/pebs.png", difficulty: "hard", type: "ability" }
+            { id: "tlatoanis-shroud", name: "Tlatoani's Shroud", img: "rotmg sheet/wh/tlsh.png", difficulty: "medium", type: "armor" },
+            { id: "tezcacoatls-tail", name: "Tezcacoatl's Tail", img: "rotmg sheet/wh/teta.png", difficulty: "medium", type: "weapon" },
+            { id: "sealed-crystal-skull", name: "Sealed Crystal Skull", img: "rotmg sheet/wh/secs.png", difficulty: "medium", type: "ability" },
+            { id: "penetrating-blast-spell", name: "Penetrating Blast Spell", img: "rotmg sheet/wh/pebs.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -399,11 +399,11 @@ const data = [
         bossImg: "rotmg sheet/dung/hite.png",
         graves: 6.5,
         items: [
-            { id: "bow", name: "B.O.W.", img: "rotmg sheet/wh/bow.png", difficulty: "hard", type: "weapon" },
-            { id: "staff", name: "S.T.A.F.F.", img: "rotmg sheet/wh/staff.png", difficulty: "hard", type: "weapon" },
-            { id: "quiver", name: "Q.U.I.V.E.R.", img: "rotmg sheet/wh/quiver.png", difficulty: "hard", type: "ability" },
-            { id: "sheath", name: "S.H.E.A.T.H.", img: "rotmg sheet/wh/sheath.png", difficulty: "hard", type: "ability" },
-            { id: "eye", name: "E.Y.E.", img: "rotmg sheet/wh/eye.png", difficulty: "hard", type: "ring" }
+            { id: "bow", name: "B.O.W.", img: "rotmg sheet/wh/bow.png", difficulty: "medium", type: "weapon" },
+            { id: "staff", name: "S.T.A.F.F.", img: "rotmg sheet/wh/staff.png", difficulty: "medium", type: "weapon" },
+            { id: "quiver", name: "Q.U.I.V.E.R.", img: "rotmg sheet/wh/quiver.png", difficulty: "medium", type: "ability" },
+            { id: "sheath", name: "S.H.E.A.T.H.", img: "rotmg sheet/wh/sheath.png", difficulty: "medium", type: "ability" },
+            { id: "eye", name: "E.Y.E.", img: "rotmg sheet/wh/eye.png", difficulty: "medium", type: "ring" }
         ]
     },
     {
@@ -411,13 +411,13 @@ const data = [
         bossImg: "rotmg sheet/dung/icci.png",
         graves: 7,
         items: [
-            { id: "staff-of-esben", name: "Staff of Esben", img: "rotmg sheet/wh/stoe.png", difficulty: "hard", type: "weapon" },
-            { id: "skullish-remains-of-esben", name: "Skullish Remains of Esben", img: "rotmg sheet/wh/sroe.png", difficulty: "hard", type: "ability" },
-            { id: "esbens-vows", name: "Esben's Vows", img: "rotmg sheet/wh/esvo.png", difficulty: "hard", type: "ability" },
-            { id: "ases-echo", name: "Ase's Echo", img: "rotmg sheet/wh/asec.png", difficulty: "hard", type: "ability" },
-            { id: "esbens-twisted-heart", name: "Esben's Twisted Heart", img: "rotmg sheet/wh/esth.png", difficulty: "hard", type: "ability" },
-            { id: "esbens-shaman-attire", name: "Esben's Shaman Attire", img: "rotmg sheet/wh/essa.png", difficulty: "hard", type: "armor" },
-            { id: "esbens-wedding-ring", name: "Esben's Wedding Ring", img: "rotmg sheet/wh/eswr.png", difficulty: "hard", type: "ring" }
+            { id: "staff-of-esben", name: "Staff of Esben", img: "rotmg sheet/wh/stoe.png", difficulty: "exalt", type: "weapon" },
+            { id: "skullish-remains-of-esben", name: "Skullish Remains of Esben", img: "rotmg sheet/wh/sroe.png", difficulty: "exalt", type: "ability" },
+            { id: "esbens-vows", name: "Esben's Vows", img: "rotmg sheet/wh/esvo.png", difficulty: "exalt", type: "ability" },
+            { id: "ases-echo", name: "Ase's Echo", img: "rotmg sheet/wh/asec.png", difficulty: "exalt", type: "ability" },
+            { id: "esbens-twisted-heart", name: "Esben's Twisted Heart", img: "rotmg sheet/wh/esth.png", difficulty: "exalt", type: "ability" },
+            { id: "esbens-shaman-attire", name: "Esben's Shaman Attire", img: "rotmg sheet/wh/essa.png", difficulty: "exalt", type: "armor" },
+            { id: "esbens-wedding-ring", name: "Esben's Wedding Ring", img: "rotmg sheet/wh/eswr.png", difficulty: "exalt", type: "ring" }
         ]
     },
     {
@@ -533,9 +533,9 @@ const data = [
         bossImg: "rotmg sheet/dung/malo.gif",
         graves: 5,
         items: [
-            { id: "suns-judgement", name: "Sun's Judgement", img: "rotmg sheet/wh/suju.png", difficulty: "exalt", type: "weapon" },
-            { id: "fire-blade", name: "Fire Blade", img: "rotmg sheet/wh/fibl.png", difficulty: "exalt", type: "weapon" },
-            { id: "comet-of-calamity", name: "Comet of Calamity", img: "rotmg sheet/wh/cooc.png", difficulty: "exalt", type: "weapon" }
+            { id: "suns-judgement", name: "Sun's Judgement", img: "rotmg sheet/wh/suju.png", difficulty: "medium", type: "weapon" },
+            { id: "fire-blade", name: "Fire Blade", img: "rotmg sheet/wh/fibl.png", difficulty: "medium", type: "weapon" },
+            { id: "comet-of-calamity", name: "Comet of Calamity", img: "rotmg sheet/wh/cooc.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -543,9 +543,9 @@ const data = [
         bossImg: "rotmg sheet/dung/unta.gif",
         graves: 5,
         items: [
-            { id: "moonbeam-blade", name: "Moonbeam Blade", img: "rotmg sheet/wh/mobl.png", difficulty: "exalt", type: "weapon" },
-            { id: "dueling-daggers", name: "Dueling Daggers", img: "rotmg sheet/wh/duda.png", difficulty: "exalt", type: "weapon" },
-            { id: "snowblind-wand", name: "Snowblind Wand", img: "rotmg sheet/wh/snwa.png", difficulty: "exalt", type: "weapon" }
+            { id: "moonbeam-blade", name: "Moonbeam Blade", img: "rotmg sheet/wh/mobl.png", difficulty: "medium", type: "weapon" },
+            { id: "dueling-daggers", name: "Dueling Daggers", img: "rotmg sheet/wh/duda.png", difficulty: "medium", type: "weapon" },
+            { id: "snowblind-wand", name: "Snowblind Wand", img: "rotmg sheet/wh/snwa.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -553,9 +553,9 @@ const data = [
         bossImg: "rotmg sheet/dung/kata.gif",
         graves: 5,
         items: [
-            { id: "warlord-wand", name: "Warlord Wand", img: "rotmg sheet/wh/wawa.png", difficulty: "exalt", type: "weapon" },
-            { id: "gaseous-glaive", name: "Gaseous Glaive", img: "rotmg sheet/wh/gagl.png", difficulty: "exalt", type: "weapon" },
-            { id: "blazon-bow", name: "Blazon Bow", img: "rotmg sheet/wh/blbo.png", difficulty: "exalt", type: "weapon" }
+            { id: "warlord-wand", name: "Warlord Wand", img: "rotmg sheet/wh/wawa.png", difficulty: "medium", type: "weapon" },
+            { id: "gaseous-glaive", name: "Gaseous Glaive", img: "rotmg sheet/wh/gagl.png", difficulty: "medium", type: "weapon" },
+            { id: "blazon-bow", name: "Blazon Bow", img: "rotmg sheet/wh/blbo.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -563,9 +563,9 @@ const data = [
         bossImg: "rotmg sheet/dung/fora.gif",
         graves: 5,
         items: [
-            { id: "foramite-staff", name: "Foramite Staff", img: "rotmg sheet/wh/fost.png", difficulty: "exalt", type: "weapon" },
-            { id: "acidic-slasher", name: "Acidic Slasher", img: "rotmg sheet/wh/acsl.png", difficulty: "exalt", type: "weapon" },
-            { id: "corrosion-cutter", name: "Corrosion Cutter", img: "rotmg sheet/wh/cocu2.png", difficulty: "exalt", type: "weapon" }
+            { id: "foramite-staff", name: "Foramite Staff", img: "rotmg sheet/wh/fost.png", difficulty: "medium", type: "weapon" },
+            { id: "acidic-slasher", name: "Acidic Slasher", img: "rotmg sheet/wh/acsl.png", difficulty: "medium", type: "weapon" },
+            { id: "corrosion-cutter", name: "Corrosion Cutter", img: "rotmg sheet/wh/cocu2.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -573,14 +573,14 @@ const data = [
         bossImg: "rotmg sheet/dung/raro.png",
         graves: 5,
         items: [
-            { id: "prismatic-slasher", name: "Prismatic Slasher", img: "rotmg sheet/wh/prsl.png", difficulty: "exalt", type: "weapon" },
-            { id: "rainbow-rod", name: "Rainbow Rod", img: "rotmg sheet/wh/raro.png", difficulty: "exalt", type: "weapon" },
-            { id: "staff-of-the-saint", name: "Staff of the Saint", img: "rotmg sheet/wh/sots.png", difficulty: "exalt", type: "weapon" },
-            { id: "sword-of-the-rainbows-end", name: "Sword of the Rainbow's End", img: "rotmg sheet/wh/sotre.png", difficulty: "exalt", type: "weapon" },
-            { id: "clover-bow", name: "Clover Bow", img: "rotmg sheet/wh/clbo.png", difficulty: "exalt", type: "weapon" },
-            { id: "katana-of-good-fortune", name: "Katana of Good Fortune", img: "rotmg sheet/wh/kogf.png", difficulty: "exalt", type: "weapon" },
-            { id: "painbow", name: "Painbow", img: "rotmg sheet/wh/pain.png", difficulty: "exalt", type: "ability" },
-            { id: "clover-star", name: "Clover Star", img: "rotmg sheet/wh/clst.png", difficulty: "exalt", type: "ability" }
+            { id: "prismatic-slasher", name: "Prismatic Slasher", img: "rotmg sheet/wh/prsl.png", difficulty: "medium", type: "weapon" },
+            { id: "rainbow-rod", name: "Rainbow Rod", img: "rotmg sheet/wh/raro.png", difficulty: "medium", type: "weapon" },
+            { id: "staff-of-the-saint", name: "Staff of the Saint", img: "rotmg sheet/wh/sots.png", difficulty: "medium", type: "weapon" },
+            { id: "sword-of-the-rainbows-end", name: "Sword of the Rainbow's End", img: "rotmg sheet/wh/sotre.png", difficulty: "medium", type: "weapon" },
+            { id: "clover-bow", name: "Clover Bow", img: "rotmg sheet/wh/clbo.png", difficulty: "medium", type: "weapon" },
+            { id: "katana-of-good-fortune", name: "Katana of Good Fortune", img: "rotmg sheet/wh/kogf.png", difficulty: "medium", type: "weapon" },
+            { id: "painbow", name: "Painbow", img: "rotmg sheet/wh/pain.png", difficulty: "medium", type: "ability" },
+            { id: "clover-star", name: "Clover Star", img: "rotmg sheet/wh/clst.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -588,11 +588,11 @@ const data = [
         bossImg: "rotmg sheet/dung/icto.png",
         graves: 5,
         items: [
-            { id: "arctic-bow", name: "Arctic Bow", img: "rotmg sheet/wh/arbo.png", difficulty: "exalt", type: "weapon" },
-            { id: "freezing-quiver", name: "Freezing Quiver", img: "rotmg sheet/wh/frqu.png", difficulty: "exalt", type: "ability" },
-            { id: "frimarra", name: "Frimarra", img: "rotmg sheet/wh/frim.png", difficulty: "exalt", type: "ring" },
-            { id: "enchanted-ice-shard", name: "Enchanted Ice Shard", img: "rotmg sheet/wh/enis.png", difficulty: "exalt", type: "ring" },
-            { id: "ring-of-the-northern-light", name: "Ring of the Northern Light", img: "rotmg sheet/wh/rotnl.png", difficulty: "exalt", type: "ring" }
+            { id: "arctic-bow", name: "Arctic Bow", img: "rotmg sheet/wh/arbo.png", difficulty: "medium", type: "weapon" },
+            { id: "freezing-quiver", name: "Freezing Quiver", img: "rotmg sheet/wh/frqu.png", difficulty: "medium", type: "ability" },
+            { id: "frimarra", name: "Frimarra", img: "rotmg sheet/wh/frim.png", difficulty: "medium", type: "ring" },
+            { id: "enchanted-ice-shard", name: "Enchanted Ice Shard", img: "rotmg sheet/wh/enis.png", difficulty: "medium", type: "ring" },
+            { id: "ring-of-the-northern-light", name: "Ring of the Northern Light", img: "rotmg sheet/wh/rotnl.png", difficulty: "medium", type: "ring" }
         ]
     },
     {
@@ -600,8 +600,8 @@ const data = [
         bossImg: "rotmg sheet/dung/bega.png",
         graves: 5.5,
         items: [
-            { id: "perennial-cranium", name: "Perennial Cranium", img: "rotmg sheet/wh/pecr.png", difficulty: "exalt", type: "ability" },
-            { id: "hanagasaku", name: "Hanagasaku", img: "rotmg sheet/wh/hana.png", difficulty: "exalt", type: "ability" }
+            { id: "perennial-cranium", name: "Perennial Cranium", img: "rotmg sheet/wh/pecr.png", difficulty: "medium", type: "ability" },
+            { id: "hanagasaku", name: "Hanagasaku", img: "rotmg sheet/wh/hana.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -609,12 +609,12 @@ const data = [
         bossImg: "rotmg sheet/dung/qubc.png",
         graves: 5.5,
         items: [
-            { id: "bunny-ear-tachi", name: "Bunny Ear Tachi", img: "rotmg sheet/wh/buet.png", difficulty: "exalt", type: "weapon" },
-            { id: "caramel-spellblade", name: "Caramel Spellblade", img: "rotmg sheet/wh/casp.png", difficulty: "exalt", type: "weapon" },
-            { id: "shard-launcher", name: "Shard Launcher", img: "rotmg sheet/wh/shla.png", difficulty: "exalt", type: "weapon" },
-            { id: "egg-basher", name: "Egg Basher", img: "rotmg sheet/wh/egba.png", difficulty: "exalt", type: "weapon" },
-            { id: "chocolate-ovipositor", name: "Chocolate Ovipositor", img: "rotmg sheet/wh/chov.png", difficulty: "exalt", type: "weapon" },
-            { id: "hatchling-blades", name: "Hatchling Blades", img: "rotmg sheet/wh/habl.png", difficulty: "exalt", type: "weapon" }
+            { id: "bunny-ear-tachi", name: "Bunny Ear Tachi", img: "rotmg sheet/wh/buet.png", difficulty: "medium", type: "weapon" },
+            { id: "caramel-spellblade", name: "Caramel Spellblade", img: "rotmg sheet/wh/casp.png", difficulty: "medium", type: "weapon" },
+            { id: "shard-launcher", name: "Shard Launcher", img: "rotmg sheet/wh/shla.png", difficulty: "medium", type: "weapon" },
+            { id: "egg-basher", name: "Egg Basher", img: "rotmg sheet/wh/egba.png", difficulty: "medium", type: "weapon" },
+            { id: "chocolate-ovipositor", name: "Chocolate Ovipositor", img: "rotmg sheet/wh/chov.png", difficulty: "medium", type: "weapon" },
+            { id: "hatchling-blades", name: "Hatchling Blades", img: "rotmg sheet/wh/habl.png", difficulty: "medium", type: "weapon" }
         ]
     },
     {
@@ -622,7 +622,7 @@ const data = [
         bossImg: "rotmg sheet/dung/stro.gif",
         graves: 9,
         items: [
-            { id: "nightmatter-circlet", name: "Nightmatter Circlet", img: "rotmg sheet/wh/nici.png", difficulty: "exalt", type: "ring" }
+            { id: "nightmatter-circlet", name: "Nightmatter Circlet", img: "rotmg sheet/wh/nici.png", difficulty: "hard", type: "ring" }
         ]
     },
     {
@@ -630,7 +630,7 @@ const data = [
         bossImg: "rotmg sheet/dung/whsi3.png",
         graves: 9,
         items: [
-            { id: "edens-embrace", name: "Eden's Embrace", img: "rotmg sheet/wh/edem.png", difficulty: "exalt", type: "ring" }
+            { id: "edens-embrace", name: "Eden's Embrace", img: "rotmg sheet/wh/edem.png", difficulty: "hard", type: "ring" }
         ]
     },
     {
@@ -673,25 +673,25 @@ const data = [
         bossImg: "rotmg sheet/dung/hiin.gif",
         graves: 8,
         items: [
-            { id: "obsidian-macuahuitl", name: "Obsidian Macuahuitl", img: "rotmg sheet/wh/obma.png", difficulty: "exalt", type: "weapon" },
-            { id: "pirates-sidearms", name: "Pirate's Sidearms", img: "rotmg sheet/wh/pisi.png", difficulty: "exalt", type: "weapon" },
-            { id: "ritual-khopesh", name: "Ritual Khopesh", img: "rotmg sheet/wh/rikh.png", difficulty: "exalt", type: "weapon" },
-            { id: "gilded-chain-scythe", name: "Gilded Chain Scythe", img: "rotmg sheet/wh/gics.png", difficulty: "exalt", type: "weapon" },
-            { id: "frangible-longbow", name: "Frangible Longbow", img: "rotmg sheet/wh/frlo.png", difficulty: "exalt", type: "weapon" },
-            { id: "royal-sekhem", name: "Royal Sekhem", img: "rotmg sheet/wh/rose.png", difficulty: "exalt", type: "weapon" },
-            { id: "rusted-barrel", name: "Rusted Barrel", img: "rotmg sheet/wh/ruba.png", difficulty: "exalt", type: "ability" },
-            { id: "corsairs-crown-jewel", name: "Corsair's Crown Jewel", img: "rotmg sheet/wh/cocj.png", difficulty: "exalt", type: "ability" },
-            { id: "storm-caller", name: "Storm Caller", img: "rotmg sheet/wh/stca.png", difficulty: "exalt", type: "ability" },
-            { id: "sheath-of-thunderous-rites", name: "Sheath of Thunderous Rites", img: "rotmg sheet/wh/sotr.png", difficulty: "exalt", type: "ability" },
-            { id: "forbidden-artifact", name: "Forbidden Artifact", img: "rotmg sheet/wh/foar.png", difficulty: "exalt", type: "ability" },
-            { id: "storied-blades", name: "Storied Blades", img: "rotmg sheet/wh/stbl.png", difficulty: "exalt", type: "ability" },
-            { id: "huntsmans-volley", name: "Huntsman's Volley", img: "rotmg sheet/wh/huvo.png", difficulty: "exalt", type: "ability" },
-            { id: "heavy-syndicate-attire", name: "Heavy Syndicate Attire", img: "rotmg sheet/wh/hesa.png", difficulty: "exalt", type: "armor" },
-            { id: "mystic-syndicate-attire", name: "Mystic Syndicate Attire", img: "rotmg sheet/wh/mysa.png", difficulty: "exalt", type: "armor" },
-            { id: "light-syndicate-attire", name: "Light Syndicate Attire", img: "rotmg sheet/wh/lisa.png", difficulty: "exalt", type: "armor" },
-            { id: "fractured-hannya", name: "Fractured Hannya", img: "rotmg sheet/wh/frha.png", difficulty: "exalt", type: "ring" },
-            { id: "faded-heart-scarab", name: "Faded Heart Scarab", img: "rotmg sheet/wh/fahs.png", difficulty: "exalt", type: "ring" },
-            { id: "sunken-fire-opal-ring", name: "Sunken Fire Opal Ring", img: "rotmg sheet/wh/sfor.png", difficulty: "exalt", type: "ring" }
+            { id: "obsidian-macuahuitl", name: "Obsidian Macuahuitl", img: "rotmg sheet/wh/obma.png", difficulty: "hard", type: "weapon" },
+            { id: "pirates-sidearms", name: "Pirate's Sidearms", img: "rotmg sheet/wh/pisi.png", difficulty: "hard", type: "weapon" },
+            { id: "ritual-khopesh", name: "Ritual Khopesh", img: "rotmg sheet/wh/rikh.png", difficulty: "hard", type: "weapon" },
+            { id: "gilded-chain-scythe", name: "Gilded Chain Scythe", img: "rotmg sheet/wh/gics.png", difficulty: "hard", type: "weapon" },
+            { id: "frangible-longbow", name: "Frangible Longbow", img: "rotmg sheet/wh/frlo.png", difficulty: "hard", type: "weapon" },
+            { id: "royal-sekhem", name: "Royal Sekhem", img: "rotmg sheet/wh/rose.png", difficulty: "hard", type: "weapon" },
+            { id: "rusted-barrel", name: "Rusted Barrel", img: "rotmg sheet/wh/ruba.png", difficulty: "hard", type: "ability" },
+            { id: "corsairs-crown-jewel", name: "Corsair's Crown Jewel", img: "rotmg sheet/wh/cocj.png", difficulty: "hard", type: "ability" },
+            { id: "storm-caller", name: "Storm Caller", img: "rotmg sheet/wh/stca.png", difficulty: "hard", type: "ability" },
+            { id: "sheath-of-thunderous-rites", name: "Sheath of Thunderous Rites", img: "rotmg sheet/wh/sotr.png", difficulty: "hard", type: "ability" },
+            { id: "forbidden-artifact", name: "Forbidden Artifact", img: "rotmg sheet/wh/foar.png", difficulty: "hard", type: "ability" },
+            { id: "storied-blades", name: "Storied Blades", img: "rotmg sheet/wh/stbl.png", difficulty: "hard", type: "ability" },
+            { id: "huntsmans-volley", name: "Huntsman's Volley", img: "rotmg sheet/wh/huvo.png", difficulty: "hard", type: "ability" },
+            { id: "heavy-syndicate-attire", name: "Heavy Syndicate Attire", img: "rotmg sheet/wh/hesa.png", difficulty: "hard", type: "armor" },
+            { id: "mystic-syndicate-attire", name: "Mystic Syndicate Attire", img: "rotmg sheet/wh/mysa.png", difficulty: "hard", type: "armor" },
+            { id: "light-syndicate-attire", name: "Light Syndicate Attire", img: "rotmg sheet/wh/lisa.png", difficulty: "hard", type: "armor" },
+            { id: "fractured-hannya", name: "Fractured Hannya", img: "rotmg sheet/wh/frha.png", difficulty: "hard", type: "ring" },
+            { id: "faded-heart-scarab", name: "Faded Heart Scarab", img: "rotmg sheet/wh/fahs.png", difficulty: "hard", type: "ring" },
+            { id: "sunken-fire-opal-ring", name: "Sunken Fire Opal Ring", img: "rotmg sheet/wh/sfor.png", difficulty: "hard", type: "ring" }
         ]
     },
     {
@@ -699,41 +699,41 @@ const data = [
         bossImg: "rotmg sheet/dung/mach.png",
         graves: 6,
         items: [
-            { id: "mister-mango", name: "Mister Mango", img: "rotmg sheet/wh/mima.png", difficulty: "exalt", type: "weapon" },
-            { id: "butter-bow", name: "Butter Bow", img: "rotmg sheet/wh/bubo.png", difficulty: "exalt", type: "weapon" },
-            { id: "kidd-force", name: "K.I.D.D. Force", img: "rotmg sheet/wh/kidd.png", difficulty: "exalt", type: "weapon" },
-            { id: "caduceus-of-current-craziness", name: "Caduceus of Current Craziness", img: "rotmg sheet/wh/cocc.png", difficulty: "exalt", type: "weapon" },
-            { id: "mmace-mmurderer", name: "MMace MMurderer", img: "rotmg sheet/wh/mmmm.png", difficulty: "exalt", type: "weapon" },
-            { id: "blade-of-ages", name: "Blade of Ages", img: "rotmg sheet/wh/bloa.png", difficulty: "exalt", type: "weapon" },
-            { id: "groovy-mango", name: "Groovy Mango", img: "rotmg sheet/wh/grma.png", difficulty: "exalt", type: "weapon" },
-            { id: "baked-bow", name: "Baked Bow", img: "rotmg sheet/wh/babo.png", difficulty: "exalt", type: "weapon" },
-            { id: "caduceus-of-enlightened-chaos", name: "Caduceus Of Enlightened Chaos", img: "rotmg sheet/wh/coec.png", difficulty: "exalt", type: "weapon" },
-            { id: "kidd-force-2", name: "K.I.D.D. Force 2.0", img: "rotmg sheet/wh/kidd2.png", difficulty: "exalt", type: "weapon" },
-            { id: "ffabulous-fflail", name: "FFabulous FFlail", img: "rotmg sheet/wh/ffff.png", difficulty: "exalt", type: "weapon" },
-            { id: "blade-of-blooming", name: "Blade of Blooming", img: "rotmg sheet/wh/blob.png", difficulty: "exalt", type: "weapon" },
-            { id: "mirror-cloak", name: "Mirror Cloak", img: "rotmg sheet/wh/micl.png", difficulty: "exalt", type: "ability" },
-            { id: "archerang", name: "Archerang", img: "rotmg sheet/wh/arch.png", difficulty: "exalt", type: "ability" },
-            { id: "spelling-spell", name: "Spelling Spell", img: "rotmg sheet/wh/spsp.png", difficulty: "exalt", type: "ability" },
-            { id: "tome-of-moral-support", name: "Tome of Moral Support", img: "rotmg sheet/wh/toms.png", difficulty: "exalt", type: "ability" },
-            { id: "challenger-helm", name: "Challenger Helm", img: "rotmg sheet/wh/chhe.png", difficulty: "exalt", type: "ability" },
-            { id: "shield-of-pogmur", name: "Shield of Pogmur", img: "rotmg sheet/wh/shop.png", difficulty: "exalt", type: "ability" },
-            { id: "seal-of-eternal-life", name: "Seal of Eternal Life", img: "rotmg sheet/wh/soel.png", difficulty: "exalt", type: "ability" },
-            { id: "lightning-in-a-bottle", name: "Lightning in a Bottle", img: "rotmg sheet/wh/liab.png", difficulty: "exalt", type: "ability" },
-            { id: "epiphany-skull", name: "Epiphany Skull", img: "rotmg sheet/wh/epsk.png", difficulty: "exalt", type: "ability" },
-            { id: "helium-trap", name: "Helium Trap", img: "rotmg sheet/wh/hetr.png", difficulty: "exalt", type: "ability" },
-            { id: "karma-orb", name: "Karma Orb", img: "rotmg sheet/wh/kaor.png", difficulty: "exalt", type: "ability" },
-            { id: "fools-prism", name: "Fool's Prism", img: "rotmg sheet/wh/fopr.png", difficulty: "exalt", type: "ability" },
-            { id: "honey-scepter-supreme", name: "Honey Scepter Supreme", img: "rotmg sheet/wh/hoss.png", difficulty: "exalt", type: "ability" },
-            { id: "unshuriken", name: "Unshuriken", img: "rotmg sheet/wh/unsh.png", difficulty: "exalt", type: "ability" },
-            { id: "nsfwakizashi", name: "NSFWakizashi", img: "rotmg sheet/wh/nsfw.png", difficulty: "exalt", type: "ability" },
-            { id: "lullaby", name: "Lullaby", img: "rotmg sheet/wh/lull.png", difficulty: "exalt", type: "ability" },
-            { id: "recursion-mace", name: "Recursion Mace", img: "rotmg sheet/wh/rema.png", difficulty: "exalt", type: "ability" },
-            { id: "paper-machete", name: "Paper Machete", img: "rotmg sheet/wh/pama.png", difficulty: "exalt", type: "ability" },
-            { id: "sigil-of-the-rubber-duck", name: "Sigil of the Rubber Duck", img: "rotmg sheet/wh/sotrd.png", difficulty: "exalt", type: "ability" },
-            { id: "cheater-light-armor", name: "Cheater Light Armor", img: "rotmg sheet/wh/chla.png", difficulty: "exalt", type: "armor" },
-            { id: "cheater-robe", name: "Cheater Robe", img: "rotmg sheet/wh/chro.png", difficulty: "exalt", type: "armor" },
-            { id: "cheater-heavy-armor", name: "Cheater Heavy Armor", img: "rotmg sheet/wh/chha.png", difficulty: "exalt", type: "armor" },
-            { id: "omni-impotence-ring", name: "Omni-Impotence Ring", img: "rotmg sheet/wh/omim.png", difficulty: "exalt", type: "ring" }
+            { id: "mister-mango", name: "Mister Mango", img: "rotmg sheet/wh/mima.png", difficulty: "medium", type: "weapon" },
+            { id: "butter-bow", name: "Butter Bow", img: "rotmg sheet/wh/bubo.png", difficulty: "medium", type: "weapon" },
+            { id: "kidd-force", name: "K.I.D.D. Force", img: "rotmg sheet/wh/kidd.png", difficulty: "medium", type: "weapon" },
+            { id: "caduceus-of-current-craziness", name: "Caduceus of Current Craziness", img: "rotmg sheet/wh/cocc.png", difficulty: "medium", type: "weapon" },
+            { id: "mmace-mmurderer", name: "MMace MMurderer", img: "rotmg sheet/wh/mmmm.png", difficulty: "medium", type: "weapon" },
+            { id: "blade-of-ages", name: "Blade of Ages", img: "rotmg sheet/wh/bloa.png", difficulty: "medium", type: "weapon" },
+            { id: "groovy-mango", name: "Groovy Mango", img: "rotmg sheet/wh/grma.png", difficulty: "medium", type: "weapon" },
+            { id: "baked-bow", name: "Baked Bow", img: "rotmg sheet/wh/babo.png", difficulty: "medium", type: "weapon" },
+            { id: "caduceus-of-enlightened-chaos", name: "Caduceus Of Enlightened Chaos", img: "rotmg sheet/wh/coec.png", difficulty: "medium", type: "weapon" },
+            { id: "kidd-force-2", name: "K.I.D.D. Force 2.0", img: "rotmg sheet/wh/kidd2.png", difficulty: "medium", type: "weapon" },
+            { id: "ffabulous-fflail", name: "FFabulous FFlail", img: "rotmg sheet/wh/ffff.png", difficulty: "medium", type: "weapon" },
+            { id: "blade-of-blooming", name: "Blade of Blooming", img: "rotmg sheet/wh/blob.png", difficulty: "medium", type: "weapon" },
+            { id: "mirror-cloak", name: "Mirror Cloak", img: "rotmg sheet/wh/micl.png", difficulty: "medium", type: "ability" },
+            { id: "archerang", name: "Archerang", img: "rotmg sheet/wh/arch.png", difficulty: "medium", type: "ability" },
+            { id: "spelling-spell", name: "Spelling Spell", img: "rotmg sheet/wh/spsp.png", difficulty: "medium", type: "ability" },
+            { id: "tome-of-moral-support", name: "Tome of Moral Support", img: "rotmg sheet/wh/toms.png", difficulty: "medium", type: "ability" },
+            { id: "challenger-helm", name: "Challenger Helm", img: "rotmg sheet/wh/chhe.png", difficulty: "medium", type: "ability" },
+            { id: "shield-of-pogmur", name: "Shield of Pogmur", img: "rotmg sheet/wh/shop.png", difficulty: "medium", type: "ability" },
+            { id: "seal-of-eternal-life", name: "Seal of Eternal Life", img: "rotmg sheet/wh/soel.png", difficulty: "medium", type: "ability" },
+            { id: "lightning-in-a-bottle", name: "Lightning in a Bottle", img: "rotmg sheet/wh/liab.png", difficulty: "medium", type: "ability" },
+            { id: "epiphany-skull", name: "Epiphany Skull", img: "rotmg sheet/wh/epsk.png", difficulty: "medium", type: "ability" },
+            { id: "helium-trap", name: "Helium Trap", img: "rotmg sheet/wh/hetr.png", difficulty: "medium", type: "ability" },
+            { id: "karma-orb", name: "Karma Orb", img: "rotmg sheet/wh/kaor.png", difficulty: "medium", type: "ability" },
+            { id: "fools-prism", name: "Fool's Prism", img: "rotmg sheet/wh/fopr.png", difficulty: "medium", type: "ability" },
+            { id: "honey-scepter-supreme", name: "Honey Scepter Supreme", img: "rotmg sheet/wh/hoss.png", difficulty: "medium", type: "ability" },
+            { id: "unshuriken", name: "Unshuriken", img: "rotmg sheet/wh/unsh.png", difficulty: "medium", type: "ability" },
+            { id: "nsfwakizashi", name: "NSFWakizashi", img: "rotmg sheet/wh/nsfw.png", difficulty: "medium", type: "ability" },
+            { id: "lullaby", name: "Lullaby", img: "rotmg sheet/wh/lull.png", difficulty: "medium", type: "ability" },
+            { id: "recursion-mace", name: "Recursion Mace", img: "rotmg sheet/wh/rema.png", difficulty: "medium", type: "ability" },
+            { id: "paper-machete", name: "Paper Machete", img: "rotmg sheet/wh/pama.png", difficulty: "medium", type: "ability" },
+            { id: "sigil-of-the-rubber-duck", name: "Sigil of the Rubber Duck", img: "rotmg sheet/wh/sotrd.png", difficulty: "medium", type: "ability" },
+            { id: "cheater-light-armor", name: "Cheater Light Armor", img: "rotmg sheet/wh/chla.png", difficulty: "medium", type: "armor" },
+            { id: "cheater-robe", name: "Cheater Robe", img: "rotmg sheet/wh/chro.png", difficulty: "medium", type: "armor" },
+            { id: "cheater-heavy-armor", name: "Cheater Heavy Armor", img: "rotmg sheet/wh/chha.png", difficulty: "medium", type: "armor" },
+            { id: "omni-impotence-ring", name: "Omni-Impotence Ring", img: "rotmg sheet/wh/omim.png", difficulty: "medium", type: "ring" }
         ]
     },
     {

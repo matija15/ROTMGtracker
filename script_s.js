@@ -355,7 +355,7 @@ const data = [
         items: [
             { id: "endless-torment-skull-s", name: "Skull of Endless Torment", img: "rotmg sheet/sh/soet.png", difficulty: "medium", type: "ability" },
             { id: "crossing-fires-wakizashi-s", name: "Wakizashi of Crossing Fires", img: "rotmg sheet/sh/waki.png", difficulty: "medium", type: "ability" },
-            { id: "igneous-starblossom-s", name: "Igneous Starblossom", img: "rotmg sheet/sh/igst.png", difficulty: "medium", type: "ring" },
+            { id: "igneous-starblossom-s", name: "Igneous Starblossom", img: "rotmg sheet/sh/igst.png", difficulty: "medium", type: "ability" },
         ]
     },
     {
