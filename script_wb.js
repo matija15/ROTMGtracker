@@ -91,7 +91,7 @@ const data = [
             { id: "evolutionary-records", name: "Evolutionary Records", img: "rotmg sheet/wh/evolutionary-records.png", difficulty: "medium", type: "ability" },
             { id: "pollen-incendiary", name: "Pollen Incendiary", img: "rotmg sheet/wh/pollen-incendiary.png", difficulty: "medium", type: "ability" },
             { id: "runes-of-knowledge", name: "Runes of Knowledge", img: "rotmg sheet/wh/runes-of-knowledge.png", difficulty: "medium", type: "ability" },
-            { id: "cloak-of-the-deep", name: "Cloak of the Deep", img: "rotmg sheet/wh/cloak-of-the-deep.png", difficulty: "medium", type: "ability" },
+            { id: "cloak-of-the-deep", name: "Cloak of the Deep", img: "rotmg sheet/wh/cloak-of-the-deep.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
