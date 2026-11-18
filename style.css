@@ -394,3 +394,268 @@ body {
     height: 16px;
     cursor: pointer;
 }
+/* =====================================================
+   EXTRAS (set counters, backup buttons, toast, mobile)
+   ===================================================== */
+
+/* Cards never wider than the screen on small phones */
+.grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(345px, 100%), 1fr));
+}
+
+/* "3/4" counter in each card header */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.set-count {
+    font-size: 12px;
+    color: #888;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.section-card.set-complete {
+    border-bottom-color: #c8a951;
+    box-shadow: 0 0 0 1px rgba(200, 169, 81, 0.35), 0 0 14px rgba(200, 169, 81, 0.15);
+}
+
+.section-card.set-complete .set-count {
+    color: #c8a951;
+    font-weight: bold;
+}
+
+#sets-complete-label {
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    margin: -14px 0 20px;
+}
+
+/* Little hover lift so items feel clickable */
+.item-sprite:hover {
+    transform: scale(1.08);
+}
+
+/* Share / backup buttons, same feel as Reset */
+.tool-btn {
+    background: #1a1a2e;
+    color: #c8a951;
+    border: 1px solid #3a3a55;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.tool-btn:hover {
+    border-color: #c8a951;
+}
+
+#reset-btn:hover {
+    border-color: #ff8888;
+}
+
+/* Small pop-up message ("Copied!") */
+#toast {
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%) translateY(20px);
+    background: #1a1a1a;
+    color: #c8a951;
+    border: 1px solid #c8a951;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s, transform 0.25s;
+    z-index: 10000;
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Visible focus for keyboard users */
+button:focus-visible, .nav-btn:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 2px solid #c8a951;
+    outline-offset: 2px;
+}
+
+/* ---------- Tablets ---------- */
+@media (max-width: 760px) {
+    .section-card-wide {
+        grid-column: auto;
+    }
+}
+
+/* ---------- Phones ---------- */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .top-controls {
+        flex-wrap: wrap;
+    }
+
+    #search-bar {
+        flex: 1 1 calc(100% - 52px);
+        min-width: 0;
+        font-size: 16px; /* stops iPhone from zooming in */
+    }
+
+    .info-wrapper {
+        order: 1;
+    }
+
+    .tool-btn, #reset-btn {
+        order: 2;
+    }
+
+    .info-wrapper .custom-tooltip {
+        right: auto;
+        left: 0;
+    }
+
+    .tool-btn, #reset-btn {
+        flex: 1 1 auto;
+        padding: 8px 6px;
+        font-size: 13px;
+    }
+
+    .filter-container {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .filter-group {
+        flex: 1 1 140px;
+    }
+
+    .custom-select-trigger, .filter-select {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .checkbox-group {
+        margin-left: 0;
+        flex: 1 1 100%;
+    }
+
+    .page-nav {
+        gap: 8px;
+    }
+
+    .nav-btn {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .grid {
+        gap: 12px;
+    }
+
+    .section-card {
+        padding: 12px;
+    }
+
+    .card-body {
+        gap: 10px !important;
+    }
+
+    .boss-container,
+    .boss-container img {
+        width: 56px !important;
+        height: 56px !important;
+    }
+
+    .items-list {
+        gap: 8px !important;
+    }
+
+    .item-sprite {
+        width: 44px;
+        height: 44px;
+    }
+
+    .item-sprite:hover {
+        transform: none;
+    }
+
+    #tooltip {
+        max-width: calc(100vw - 30px);
+        box-sizing: border-box;
+    }
+}
+
+/* Page title for Google & screen readers (not shown on screen) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* Share picture pop-up */
+#share-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.share-box {
+    background: #1a1a2e;
+    border: 1px solid #c8a951;
+    border-radius: 10px;
+    padding: 18px;
+    max-width: min(900px, 100%);
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+}
+
+.share-title {
+    color: #c8a951;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.share-preview {
+    overflow: auto;
+    border-radius: 6px;
+    background: #121212;
+    min-height: 0;
+}
+
+.share-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.share-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.share-hint {
+    font-size: 12px;
+    color: #888;
+}

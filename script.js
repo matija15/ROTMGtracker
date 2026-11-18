@@ -4,17 +4,17 @@ const data = [
         dungeon: "Acidified Assassin Set",
         bossImg: "rotmg sheet/st/acidas/acidified assassin.png",
         items: [
-            { id: "acidas-tooth", name: "Toxin Tooth", img: "rotmg sheet/st/acidas/tooth.png", location: "Lost Halls", class: "assassin", type: "weapon", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/mara.png", "rotmg sheet/mini/gtsg.png"] },
-            { id: "acidas-virulent", name: "Virulent Venom", img: "rotmg sheet/st/acidas/virulent.png", location: "Lost Halls", class: "assassin", type: "ability", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/mara.png", "rotmg sheet/mini/gtsg.png"] },
-            { id: "acidas-armor", name: "Acidic Armor", img: "rotmg sheet/st/acidas/armor.png", location: "Lost Halls", class: "assassin", type: "armor", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/gora.png", "rotmg sheet/mini/gtsg.png", "rotmg sheet/mini/seal.png"] },
-            { id: "acidas-peridot", name: "Pernicious Peridot", img: "rotmg sheet/st/acidas/peridot.png", location: "Lost Halls", class: "assassin", type: "ring", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/gora.png", "rotmg sheet/mini/gtsg.png", "rotmg sheet/mini/seal.png"] }
+            { id: "acidas-tooth", name: "Toxin Tooth", img: "rotmg sheet/st/acidas/tooth.png", location: "Toxic Sewers", class: "assassin", type: "weapon", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/mara.png", "rotmg sheet/mini/gtsg.png"] },
+            { id: "acidas-virulent", name: "Virulent Venom", img: "rotmg sheet/st/acidas/virulent.png", location: "Toxic Sewers", class: "assassin", type: "ability", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/mara.png", "rotmg sheet/mini/gtsg.png"] },
+            { id: "acidas-armor", name: "Acidic Armor", img: "rotmg sheet/st/acidas/armor.png", location: "Toxic Sewers", class: "assassin", type: "armor", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/gora.png", "rotmg sheet/mini/gtsg.png", "rotmg sheet/mini/seal.png"] },
+            { id: "acidas-peridot", name: "Pernicious Peridot", img: "rotmg sheet/st/acidas/peridot.png", location: "Toxic Sewers", class: "assassin", type: "ring", dungeonImg: "rotmg sheet/dung/toxs.png", bossSources: ["rotmg sheet/mini/gora.png", "rotmg sheet/mini/gtsg.png", "rotmg sheet/mini/seal.png"] }
         ]
     },
     {
         dungeon: "Vampire Rogue Set",
         bossImg: "rotmg sheet/st/vamrs/vampire rogue.png",
         items: [
-            { id: "vamrs-scythe", name: "Soulcursed Scythe", img: "rotmg sheet/st/vamrs/scythe.png", location: "Manor of the Immortals ",class: "rogue", type: "weapon", dungeonImg: "rotmg sheet/dung/moti.png", bossSources: ["rotmg sheet/mini/loru.png", "rotmg sheet/mini/coff.png"] },
+            { id: "vamrs-scythe", name: "Soulcursed Scythe", img: "rotmg sheet/st/vamrs/scythe.png", location: "Manor of the Immortals", class: "rogue", type: "weapon", dungeonImg: "rotmg sheet/dung/moti.png", bossSources: ["rotmg sheet/mini/loru.png", "rotmg sheet/mini/coff.png"] },
             { id: "vamrs-cape", name: "Vampiric Cape", img: "rotmg sheet/st/vamrs/cape.png", location: "Manor of the Immortals", class: "rogue", type: "ability", dungeonImg: "rotmg sheet/dung/moti.png", bossSources: ["rotmg sheet/mini/loru.png","rotmg sheet/mini/coff.png"] },
             { id: "vamrs-hide", name: "Hallowed Hide", img: "rotmg sheet/st/vamrs/hide.png", location: "Manor of the Immortals", class: "rogue", type: "armor", dungeonImg: "rotmg sheet/dung/moti.png", bossSources: ["rotmg sheet/mini/lebv.png","rotmg sheet/mini/life.png","rotmg sheet/mini/argu.png","rotmg sheet/mini/hehe.png","rotmg sheet/mini/hell.png","rotmg sheet/mini/nosf.png"] },
             { id: "vamrs-rosary", name: "Ruthven's Rosary", img: "rotmg sheet/st/vamrs/rosary.png", location: "Manor of the Immortals", class: "rogue", type: "ring", dungeonImg: "rotmg sheet/dung/moti.png", bossSources: ["rotmg sheet/mini/lebv.png","rotmg sheet/mini/life.png","rotmg sheet/mini/argu.png","rotmg sheet/mini/hehe.png","rotmg sheet/mini/hell.png","rotmg sheet/mini/nosf.png"] }
@@ -64,10 +64,10 @@ const data = [
         dungeon: "Treasure Hunter Archer Set",
         bossImg: "rotmg sheet/st/thas/treasure hunter.png",
         items: [
-            { id: "thas-bow", name: "Resplendent Bow", img: "rotmg sheet/st/thas/bow.png", location: "Ancient Ruins.", class: "archer", type: "weapon", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/sati.png","rotmg sheet/mini/geni.png"] },
-            { id: "thas-quiver", name: "Embellished Quiver", img: "rotmg sheet/st/thas/quiver.png", location: "Ancient Ruins.", class: "archer", type: "ability", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/sati.png","rotmg sheet/mini/geni.png"] },
-            { id: "thas-armor", name: "Ornate Armor", img: "rotmg sheet/st/thas/armor.png", location: "Ancient Ruins.", class: "archer", type: "armor", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/anmo.png","rotmg sheet/mini/sael.png"] },
-            { id: "thas-amulet", name: "Aquamarine Amulet", img: "rotmg sheet/st/thas/amulet.png", location: "Ancient Ruins.", class: "archer", type: "ring", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/anmo.png","rotmg sheet/mini/sael.png"] }
+            { id: "thas-bow", name: "Resplendent Bow", img: "rotmg sheet/st/thas/bow.png", location: "Ancient Ruins", class: "archer", type: "weapon", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/sati.png","rotmg sheet/mini/geni.png"] },
+            { id: "thas-quiver", name: "Embellished Quiver", img: "rotmg sheet/st/thas/quiver.png", location: "Ancient Ruins", class: "archer", type: "ability", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/sati.png","rotmg sheet/mini/geni.png"] },
+            { id: "thas-armor", name: "Ornate Armor", img: "rotmg sheet/st/thas/armor.png", location: "Ancient Ruins", class: "archer", type: "armor", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/anmo.png","rotmg sheet/mini/sael.png"] },
+            { id: "thas-amulet", name: "Aquamarine Amulet", img: "rotmg sheet/st/thas/amulet.png", location: "Ancient Ruins", class: "archer", type: "ring", dungeonImg: "rotmg sheet/dung/ancr.png", bossSources: ["rotmg sheet/mini/anmo.png","rotmg sheet/mini/sael.png"] }
         ]
     },
     {
@@ -136,7 +136,7 @@ const data = [
         items: [
             { id: "kpws-launcher", name: "Rocket Launcher", img: "rotmg sheet/st/kpws/launcher.png", location: "Kogbold Steamworks (Forge)", class: "wizard", type: "weapon", dungeonImg: "rotmg sheet/mini/kpwss.png", bossSources: ["rotmg sheet/mini/kofm.gif","rotmg sheet/mini/stec.png"] },
             { id: "kpws-firework", name: "Unstable Firework", img: "rotmg sheet/st/kpws/firework.png", location: "Kogbold Steamworks (Forge)", class: "wizard", type: "ability", dungeonImg: "rotmg sheet/mini/kpwss.png", bossSources: ["rotmg sheet/mini/kofm.gif","rotmg sheet/mini/stec.png"] },
-            { id: "kpws-robe", name: "Blast Proof Robes", img: "rotmg sheet/st/kpws/rob.png", location: "Kogbold Steamworks (Forge)", class: "wizard", type: "armor", dungeonImg: "rotmg sheet/kpws/rob.png", bossSources: ["rotmg sheet/mini/kofm.gif","rotmg sheet/mini/stec.png"] },
+            { id: "kpws-robe", name: "Blast Proof Robes", img: "rotmg sheet/st/kpws/rob.png", location: "Kogbold Steamworks (Forge)", class: "wizard", type: "armor", dungeonImg: "rotmg sheet/mini/kpwss.png", bossSources: ["rotmg sheet/mini/kofm.gif","rotmg sheet/mini/stec.png"] },
             { id: "kpws-nade", name: "Lucky Grenade", img: "rotmg sheet/st/kpws/nade.png", location: "Kogbold Steamworks (Forge)", class: "wizard", type: "ring", dungeonImg: "rotmg sheet/mini/kpwss.png", bossSources: ["rotmg sheet/mini/kofm.gif","rotmg sheet/mini/stec.png"] }
         ]
     },
@@ -144,10 +144,10 @@ const data = [
         dungeon: "Paranormal Wizard Set",
         bossImg: "rotmg sheet/st/parws/boss.png",
         items: [
-            { id: "parws-staff", name: "Supernatural Staff", img: "rotmg sheet/st/parws/staff.png", location: "The Shatters", class: "wizard", type: "weapon", dungeonImg: "rotmg sheet/dung/shat.png", bossSources: ["rotmg sheet/mini/tfhk.png","rotmg sheet/mini/tfhk2.png"] },
-            { id: "parws-spell", name: "Spectral Spell", img: "rotmg sheet/st/parws/spell.png", location: "The Shatters", class: "wizard", type: "ability", dungeonImg: "rotmg sheet/dung/shat.png", bossSources: ["rotmg sheet/mini/twar.png"] },
-            { id: "parws-mantle", name: "Immortal Mantle", img: "rotmg sheet/st/parws/mantle.png", location: "The Shatters", class: "wizard", type: "armor", dungeonImg: "rotmg sheet/dung/shat.png", bossSources: ["rotmg sheet/mini/twar.png"] },
-            { id: "parws-ring", name: "Phantom Pendant", img: "rotmg sheet/st/parws/ring.png", location: "The Shatters", class: "wizard", type: "ring", dungeonImg: "rotmg sheet/dung/shat.png", bossSources: ["rotmg sheet/mini/icad.png","rotmg sheet/mini/icad2.png"] }
+            { id: "parws-staff", name: "Supernatural Staff", img: "rotmg sheet/st/parws/staff.png", location: "Halloween Mystery ST Chest (event)", class: "wizard", type: "weapon", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "parws-spell", name: "Spectral Spell", img: "rotmg sheet/st/parws/spell.png", location: "Halloween Mystery ST Chest (event)", class: "wizard", type: "ability", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "parws-mantle", name: "Immortal Mantle", img: "rotmg sheet/st/parws/mantle.png", location: "Halloween Mystery ST Chest (event)", class: "wizard", type: "armor", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "parws-ring", name: "Phantom Pendant", img: "rotmg sheet/st/parws/ring.png", location: "Halloween Mystery ST Chest (event)", class: "wizard", type: "ring", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" }
         ]
     },
     {
@@ -204,10 +204,10 @@ const data = [
         dungeon: "Archexorcist Priest Set",
         bossImg: "rotmg sheet/st/arcps/boss.png",
         items: [
-            { id: "arcps-artifact", name: "Holy Artifact", img: "rotmg sheet/st/arcps/artifact.png", location: "Money", class: "priest", type: "weapon", dungeonImg: "rotmg sheet/dung/money.png"},
-            { id: "arcps-tome", name: "Tome of Exorcism", img: "rotmg sheet/st/arcps/tome.png", location: "Money", class: "priest", type: "ability", dungeonImg: "rotmg sheet/dung/money.png"},
-            { id: "arcps-garb", name: "Garb of the Ordained", img: "rotmg sheet/st/arcps/garb.png", location: "Money", class: "priest", type: "armor", dungeonImg: "rotmg sheet/dung/money.png"},
-            { id: "arcps-ring", name: "Pontifex Ring", img: "rotmg sheet/st/arcps/ring.png", location: "Money", class: "priest", type: "ring", dungeonImg: "rotmg sheet/dung/money.png"}
+            { id: "arcps-artifact", name: "Holy Artifact", img: "rotmg sheet/st/arcps/artifact.png", location: "Halloween Mystery ST Chest (event)", class: "priest", type: "weapon", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png"},
+            { id: "arcps-tome", name: "Tome of Exorcism", img: "rotmg sheet/st/arcps/tome.png", location: "Halloween Mystery ST Chest (event)", class: "priest", type: "ability", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png"},
+            { id: "arcps-garb", name: "Garb of the Ordained", img: "rotmg sheet/st/arcps/garb.png", location: "Halloween Mystery ST Chest (event)", class: "priest", type: "armor", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png"},
+            { id: "arcps-ring", name: "Pontifex Ring", img: "rotmg sheet/st/arcps/ring.png", location: "Halloween Mystery ST Chest (event)", class: "priest", type: "ring", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png"}
         ]
     },
     {
@@ -354,10 +354,10 @@ const data = [
         dungeon: "Flesh Collector Set",
         bossImg: "rotmg sheet/st/flecs/boss.png",
         items: [
-            { id: "flecs-ripper", name: "Symbiotic Ripper", img: "rotmg sheet/st/flecs/ripper.png", location: "Parasite Chambers", class: "necromancer", type: "weapon", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/nico.png"] },
-            { id: "flecs-beer", name: "Parasitic Concoction", img: "rotmg sheet/st/flecs/beer.png", location: "Parasite Chambers", class: "necromancer", type: "ability", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/inch.png"] },
-            { id: "flecs-rags", name: "Rags of the Host", img: "rotmg sheet/st/flecs/rags.png", location: "Parasite Chambers", class: "necromancer", type: "armor", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/nico.png","rotmg sheet/mini/inch.png"] },
-            { id: "flecs-ring", name: "Hivemind Circlet", img: "rotmg sheet/st/flecs/ring.png", location: "Parasite Chambers", class: "necromancer", type: "ring", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/blco.png","rotmg sheet/mini/swco.png","rotmg sheet/mini/ptco.png"] }
+            { id: "flecs-ripper", name: "Symbiotic Ripper", img: "rotmg sheet/st/flecs/ripper.png", location: "Parasite Chambers", class: "assassin", type: "weapon", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/nico.png"] },
+            { id: "flecs-beer", name: "Parasitic Concoction", img: "rotmg sheet/st/flecs/beer.png", location: "Parasite Chambers", class: "assassin", type: "ability", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/inch.png"] },
+            { id: "flecs-rags", name: "Rags of the Host", img: "rotmg sheet/st/flecs/rags.png", location: "Parasite Chambers", class: "assassin", type: "armor", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/nico.png","rotmg sheet/mini/inch.png"] },
+            { id: "flecs-ring", name: "Hivemind Circlet", img: "rotmg sheet/st/flecs/ring.png", location: "Parasite Chambers", class: "assassin", type: "ring", dungeonImg: "rotmg sheet/dung/pach.gif", bossSources: ["rotmg sheet/mini/blco.png","rotmg sheet/mini/swco.png","rotmg sheet/mini/ptco.png"] }
         ]
     },
     {
@@ -625,10 +625,10 @@ const data = [
         dungeon: "Daring Discoverer Samurai Set",
         bossImg: "rotmg sheet/st/ddss/boss.png",
         items: [
-            { id: "ddss-sword", name: "Kiritsukeru", img: "rotmg sheet/st/ddss/sword.png", location: "The Realm ", class: "samurai", type: "weapon", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/cygo.png","rotmg sheet/mini/sits.png"] },
-            { id: "ddss-watari", name: "Watarimono", img: "rotmg sheet/st/ddss/watari.png", location: "The Realm ", class: "samurai", type: "ability", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/oagi.png","rotmg sheet/mini/drtr.png"] },
-            { id: "ddss-armor", name: "Reinforced Root Armor", img: "rotmg sheet/st/ddss/armor.png", location: "The Realm ", class: "samurai", type: "armor", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/phre.png","rotmg sheet/mini/inrc.png"] },
-            { id: "ddss-trinket", name: "Traveler's Trinket", img: "rotmg sheet/st/ddss/trinket.png", location: "The Realm ", class: "samurai", type: "ring", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/deat.png","rotmg sheet/mini/medu.png"] }
+            { id: "ddss-sword", name: "Kiritsukeru", img: "rotmg sheet/st/ddss/sword.png", location: "The Realm", class: "samurai", type: "weapon", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/cygo.png","rotmg sheet/mini/sits.png"] },
+            { id: "ddss-watari", name: "Watarimono", img: "rotmg sheet/st/ddss/watari.png", location: "The Realm", class: "samurai", type: "ability", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/oagi.png","rotmg sheet/mini/drtr.png"] },
+            { id: "ddss-armor", name: "Reinforced Root Armor", img: "rotmg sheet/st/ddss/armor.png", location: "The Realm", class: "samurai", type: "armor", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/phre.png","rotmg sheet/mini/inrc.png"] },
+            { id: "ddss-trinket", name: "Traveler's Trinket", img: "rotmg sheet/st/ddss/trinket.png", location: "The Realm", class: "samurai", type: "ring", dungeonImg: "rotmg sheet/dung/realm.png", bossSources: ["rotmg sheet/mini/deat.png","rotmg sheet/mini/medu.png"] }
         ]
     },
     {
@@ -775,10 +775,10 @@ const data = [
         dungeon: "Globular Necromancer Set",
         bossImg: "rotmg sheet/st/glons/boss.png",
         items: [
-            { id: "glons-staff", name: "Bloody Pitch Fork Staff", img: "rotmg sheet/st/glons/staff.png", location: "Money", class: "necromancer", type: "weapon", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "glons-esse", name: "Blood Essence", img: "rotmg sheet/st/glons/esse.png", location: "Money", class: "necromancer", type: "ability", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "glons-robe", name: "Curse Binding Robes", img: "rotmg sheet/st/glons/robe.png", location: "Money", class: "necromancer", type: "armor", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "glons-headband", name: "Spike Headband", img: "rotmg sheet/st/glons/headband.png", location: "Money", class: "necromancer", type: "ring", dungeonImg: "rotmg sheet/dung/money.png" }
+            { id: "glons-staff", name: "Bloody Pitch Fork Staff", img: "rotmg sheet/st/glons/staff.png", location: "Halloween Mystery ST Chest (event)", class: "necromancer", type: "weapon", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "glons-esse", name: "Blood Essence", img: "rotmg sheet/st/glons/esse.png", location: "Halloween Mystery ST Chest (event)", class: "necromancer", type: "ability", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "glons-robe", name: "Curse Binding Robes", img: "rotmg sheet/st/glons/robe.png", location: "Halloween Mystery ST Chest (event)", class: "necromancer", type: "armor", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "glons-headband", name: "Spike Headband", img: "rotmg sheet/st/glons/headband.png", location: "Halloween Mystery ST Chest (event)", class: "necromancer", type: "ring", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" }
         ]
     },
     {
@@ -795,20 +795,20 @@ const data = [
         dungeon: "Mechanical Raptor Druid Set",
         bossImg: "rotmg sheet/st/mrds/boss.png",
         items: [
-            { id: "mrds-gear", name: "Gearhawk Morning Star", img: "rotmg sheet/st/mrds/gear.png", location: "Money", class: "druid", type: "weapon", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "mrds-sigil", name: "Mechraptor Sigil", img: "rotmg sheet/st/mrds/sigil.png", location: "Money", class: "druid", type: "ability", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "mrds-jerkin", name: "Mechpilot's Jerkin", img: "rotmg sheet/st/mrds/jerkin.png", location: "Money", class: "druid", type: "armor", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "mrds-band", name: "Pressure Gauge Band", img: "rotmg sheet/st/mrds/band.png", location: "Money", class: "druid", type: "ring", dungeonImg: "rotmg sheet/dung/money.png" }
+            { id: "mrds-gear", name: "Gearhawk Morning Star", img: "rotmg sheet/st/mrds/gear.png", location: "Kogbold Steamworks", class: "druid", type: "weapon", dungeonImg: "rotmg sheet/dung/kost.gif" },
+            { id: "mrds-sigil", name: "Mechraptor Sigil", img: "rotmg sheet/st/mrds/sigil.png", location: "Kogbold Steamworks", class: "druid", type: "ability", dungeonImg: "rotmg sheet/dung/kost.gif" },
+            { id: "mrds-jerkin", name: "Mechpilot's Jerkin", img: "rotmg sheet/st/mrds/jerkin.png", location: "Kogbold Steamworks", class: "druid", type: "armor", dungeonImg: "rotmg sheet/dung/kost.gif" },
+            { id: "mrds-band", name: "Pressure Gauge Band", img: "rotmg sheet/st/mrds/band.png", location: "Kogbold Steamworks", class: "druid", type: "ring", dungeonImg: "rotmg sheet/dung/kost.gif" }
         ]
     },
     {
         dungeon: "Spectral Sentry Rogue Set",
         bossImg: "rotmg sheet/st/ssrs/boss.png",
         items: [
-            { id: "ssrs-sickle", name: "Phantom Sickle", img: "rotmg sheet/st/ssrs/sickle.png", location: "Forge", class: "rogue", type: "weapon", dungeonImg: "rotmg sheet/dung/forge.gif", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
-            { id: "ssrs-cloak", name: "Spectre Cloak", img: "rotmg sheet/st/ssrs/cloak.png", location: "Forge", class: "rogue", type: "ability", dungeonImg: "rotmg sheet/dung/forge.gif", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
-            { id: "ssrs-armor", name: "Reaper's Shroud", img: "rotmg sheet/st/ssrs/armor.png", location: "Forge", class: "rogue", type: "armor", dungeonImg: "rotmg sheet/dung/forge.gif", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
-            { id: "ssrs-necklace", name: "Soul Necklace", img: "rotmg sheet/st/ssrs/necklace.png", location: "Forge", class: "rogue", type: "ring", dungeonImg: "rotmg sheet/dung/forge.gif", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] }
+            { id: "ssrs-sickle", name: "Phantom Sickle", img: "rotmg sheet/st/ssrs/sickle.png", location: "Lost Halls", class: "rogue", type: "weapon", dungeonImg: "rotmg sheet/dung/loha.png", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
+            { id: "ssrs-cloak", name: "Spectre Cloak", img: "rotmg sheet/st/ssrs/cloak.png", location: "Lost Halls", class: "rogue", type: "ability", dungeonImg: "rotmg sheet/dung/loha.png", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
+            { id: "ssrs-armor", name: "Reaper's Shroud", img: "rotmg sheet/st/ssrs/armor.png", location: "Lost Halls", class: "rogue", type: "armor", dungeonImg: "rotmg sheet/dung/loha.png", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] },
+            { id: "ssrs-necklace", name: "Soul Necklace", img: "rotmg sheet/st/ssrs/necklace.png", location: "Lost Halls", class: "rogue", type: "ring", dungeonImg: "rotmg sheet/dung/loha.png", bossSources: ["rotmg sheet/mini/srst.png","rotmg sheet/mini/loba.png"] }
         ]
     },
     {
@@ -846,10 +846,20 @@ const data = [
         dungeon: "Demon Guitarist Set",
         bossImg: "rotmg sheet/st/demgs/boss.png",
         items: [
-            { id: "demgs-guitar", name: "Electric Guitar", img: "rotmg sheet/st/demgs/guitar.png", location: "Money", class: "bard", type: "weapon", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "demgs-pick", name: "Inferno Pick", img: "rotmg sheet/st/demgs/pick.png", location: "Money", class: "bard", type: "ability", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "demgs-fallen", name: "Wings of the Fallen", img: "rotmg sheet/st/demgs/fallen.png", location: "Money", class: "bard", type: "armor", dungeonImg: "rotmg sheet/dung/money.png" },
-            { id: "demgs-ponytail", name: "Pointy Tail", img: "rotmg sheet/st/demgs/ponytail.png", location: "Money", class: "bard", type: "ring", dungeonImg: "rotmg sheet/dung/money.png" }
+            { id: "demgs-guitar", name: "Electric Guitar", img: "rotmg sheet/st/demgs/guitar.png", location: "Halloween Mystery ST Chest (event)", class: "bard", type: "weapon", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "demgs-pick", name: "Inferno Pick", img: "rotmg sheet/st/demgs/pick.png", location: "Halloween Mystery ST Chest (event)", class: "bard", type: "ability", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "demgs-fallen", name: "Wings of the Fallen", img: "rotmg sheet/st/demgs/fallen.png", location: "Halloween Mystery ST Chest (event)", class: "bard", type: "armor", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" },
+            { id: "demgs-ponytail", name: "Pointy Tail", img: "rotmg sheet/st/demgs/ponytail.png", location: "Halloween Mystery ST Chest (event)", class: "bard", type: "ring", dungeonImg: "rotmg sheet/dung/halloween-st-chest.png" }
+        ]
+    },
+    {
+        dungeon: "Skeletosaur Druid Set",
+        bossImg: "rotmg sheet/st/skeds/boss.png",
+        items: [
+            { id: "skeds-talon", name: "Aeonic Talon", img: "rotmg sheet/st/skeds/talon.png", location: "Event", class: "druid", type: "weapon", dungeonImg: "rotmg sheet/dung/event.png" },
+            { id: "skeds-sigil", name: "Jurr Sigil", img: "rotmg sheet/st/skeds/sigil.png", location: "Event", class: "druid", type: "ability", dungeonImg: "rotmg sheet/dung/event.png" },
+            { id: "skeds-padding", name: "Primal Padding", img: "rotmg sheet/st/skeds/padding.png", location: "Event", class: "druid", type: "armor", dungeonImg: "rotmg sheet/dung/event.png" },
+            { id: "skeds-fossil", name: "Stor Fossil", img: "rotmg sheet/st/skeds/fossil.png", location: "Event", class: "druid", type: "ring", dungeonImg: "rotmg sheet/dung/event.png" }
         ]
     }
 ];
@@ -1065,8 +1075,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // --- SYSTEM RESET ENGINES ---
 document.getElementById('reset-btn').addEventListener('click', () => {
-    if (confirm("Reset all progress?")) {
-        localStorage.clear();
+    if (confirm("Reset all ST Sets progress? (Shiny and White Bags stay saved)")) {
+        data.forEach(section => {
+            section.items.forEach(item => localStorage.removeItem(item.id));
+        });
         location.reload();
     }
 });

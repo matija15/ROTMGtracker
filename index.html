@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROTMG Shiny & ST Tracker</title>
+    <title>RotMG ST Set Tracker – Track Your Set-Tiered Items | ROTMG Tracker</title>
+    <meta name="description" content="Free Realm of the Mad God tracker for every ST set. Tick off weapons, abilities, armors and rings, filter by class and see where each item drops.">
+    <link rel="canonical" href="https://rotmgtracker.com/">
+    <meta name="theme-color" content="#121212">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ROTMG Tracker">
+    <meta property="og:title" content="RotMG ST Set Tracker – Track Your Set-Tiered Items | ROTMG Tracker">
+    <meta property="og:description" content="Free Realm of the Mad God tracker for every ST set. Tick off weapons, abilities, armors and rings, filter by class and see where each item drops.">
+    <meta property="og:url" content="https://rotmgtracker.com/">
+    <meta property="og:image" content="https://rotmgtracker.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="rotmg sheet/whbaic.png">
 </head>
 <body>
+    <h1 class="visually-hidden">RotMG ST Set Tracker</h1>
     <div id="tooltip"></div>
     
     <div class="top-controls">
-        <input type="text" id="search-bar" placeholder="Search...">
+        <input type="text" id="search-bar" placeholder="Search items or dungeons..." aria-label="Search">
         <button id="reset-btn">Reset</button>
         
         <div class="info-wrapper">
-            <button id="info-btn">ⓘ</button>
+            <button id="info-btn" aria-label="Storage info">ⓘ</button>
             <div class="custom-tooltip">
                 <strong>Storage Info:</strong><br>
-                Your progress is saved locally in this browser. Clearing cache or history will reset your tracker!
+                Your progress is saved locally in this browser. Clearing cache or history will reset your tracker!<br><br>Use <strong>Save backup</strong> to keep a copy, or to move your progress to another device with <strong>Load backup</strong>.<br><br><span style="color:#aaa;">This site counts anonymous visits with GoatCounter (no cookies, no personal data).</span>
             </div>
         </div>
     </div>
@@ -38,61 +51,61 @@
                         <span>Class</span>
                     </div>
                     <div class="custom-option-item" data-value="rogue">
-                        <img src="rotmg sheet/class/rogue.png"><span>Rogue</span>
+                        <img src="rotmg sheet/class/rogue.png" alt=""><span>Rogue</span>
                     </div>
                     <div class="custom-option-item" data-value="archer">
-                        <img src="rotmg sheet/class/archer.png"><span>Archer</span>
+                        <img src="rotmg sheet/class/archer.png" alt=""><span>Archer</span>
                     </div>
                     <div class="custom-option-item" data-value="wizard">
-                        <img src="rotmg sheet/class/wizard.png"><span>Wizard</span>
+                        <img src="rotmg sheet/class/wizard.png" alt=""><span>Wizard</span>
                     </div>
                     <div class="custom-option-item" data-value="priest">
-                        <img src="rotmg sheet/class/priest.png"><span>Priest</span>
+                        <img src="rotmg sheet/class/priest.png" alt=""><span>Priest</span>
                     </div>
                     <div class="custom-option-item" data-value="warrior">
-                        <img src="rotmg sheet/class/warrior.png"><span>Warrior</span>
+                        <img src="rotmg sheet/class/warrior.png" alt=""><span>Warrior</span>
                     </div>
                     <div class="custom-option-item" data-value="knight">
-                        <img src="rotmg sheet/class/knight.png"><span>Knight</span>
+                        <img src="rotmg sheet/class/knight.png" alt=""><span>Knight</span>
                     </div>
                     <div class="custom-option-item" data-value="paladin">
-                        <img src="rotmg sheet/class/paladin.png"><span>Paladin</span>
+                        <img src="rotmg sheet/class/paladin.png" alt=""><span>Paladin</span>
                     </div>
                     <div class="custom-option-item" data-value="assassin">
-                        <img src="rotmg sheet/class/assassin.png"><span>Assassin</span>
+                        <img src="rotmg sheet/class/assassin.png" alt=""><span>Assassin</span>
                     </div>
                     <div class="custom-option-item" data-value="necromancer">
-                        <img src="rotmg sheet/class/necromancer.png"><span>Necromancer</span>
+                        <img src="rotmg sheet/class/necromancer.png" alt=""><span>Necromancer</span>
                     </div>
                     <div class="custom-option-item" data-value="huntress">
-                        <img src="rotmg sheet/class/huntress.png"><span>Huntress</span>
+                        <img src="rotmg sheet/class/huntress.png" alt=""><span>Huntress</span>
                     </div>
                     <div class="custom-option-item" data-value="mystic">
-                        <img src="rotmg sheet/class/mystic.png"><span>Mystic</span>
+                        <img src="rotmg sheet/class/mystic.png" alt=""><span>Mystic</span>
                     </div>
                     <div class="custom-option-item" data-value="trickster">
-                        <img src="rotmg sheet/class/trickster.png"><span>Trickster</span>
+                        <img src="rotmg sheet/class/trickster.png" alt=""><span>Trickster</span>
                     </div>
                     <div class="custom-option-item" data-value="sorcerer">
-                        <img src="rotmg sheet/class/sorcerer.png"><span>Sorcerer</span>
+                        <img src="rotmg sheet/class/sorcerer.png" alt=""><span>Sorcerer</span>
                     </div>
                     <div class="custom-option-item" data-value="ninja">
-                        <img src="rotmg sheet/class/ninja.png"><span>Ninja</span>
+                        <img src="rotmg sheet/class/ninja.png" alt=""><span>Ninja</span>
                     </div>
                     <div class="custom-option-item" data-value="samurai">
-                        <img src="rotmg sheet/class/samurai.png"><span>Samurai</span>
+                        <img src="rotmg sheet/class/samurai.png" alt=""><span>Samurai</span>
                     </div>
                     <div class="custom-option-item" data-value="bard">
-                        <img src="rotmg sheet/class/bard.png"><span>Bard</span>
+                        <img src="rotmg sheet/class/bard.png" alt=""><span>Bard</span>
                     </div>
                     <div class="custom-option-item" data-value="summoner">
-                        <img src="rotmg sheet/class/summoner.png"><span>Summoner</span>
+                        <img src="rotmg sheet/class/summoner.png" alt=""><span>Summoner</span>
                     </div>
                     <div class="custom-option-item" data-value="kensei">
-                        <img src="rotmg sheet/class/kensei.png"><span>Kensei</span>
+                        <img src="rotmg sheet/class/kensei.png" alt=""><span>Kensei</span>
                     </div>
                     <div class="custom-option-item" data-value="druid">
-                        <img src="rotmg sheet/class/druid.png"><span>Druid</span>
+                        <img src="rotmg sheet/class/druid.png" alt=""><span>Druid</span>
                     </div>
                 </div>
             </div>
@@ -132,7 +145,7 @@
     <footer style="margin-top: 50px; padding: 20px; border-top: 1px solid #c8a951; text-align: center; background: rgba(0,0,0,0.3);">
         <div style="margin-bottom: 15px;">
             <p style="color: #c8a951; font-weight: bold;">Enjoying the tracker?</p>
-            <a href="https://buymeacoffee.com/malimate" target="_blank" 
+            <a href="https://buymeacoffee.com/malimate" target="_blank" rel="noopener" 
                style="background: #ffc439; color: black; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                Support the Project (Buy Me a Coffee)
             </a>
@@ -143,10 +156,14 @@
                 Send me an Email
             </a>
         </div>
+        <p style="font-size: 11px; color: #666; margin-top: 20px;">
+            Fan-made tracker. Not affiliated with DECA Games or Realm of the Mad God. Item sprites belong to their owners.
+        </p>
     </footer>
 
-    <button id="topBtn" title="Go to top">↑</button>
+    <button id="topBtn" title="Go to top" aria-label="Go to top">↑</button>
 
     <script src="script.js"></script>
+    <script src="extras.js"></script>
 </body>
 </html>

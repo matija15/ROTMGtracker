@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROTMG White Bags Tracker</title>
+    <title>RotMG White Bag Tracker – Track Your Untiered Drops | ROTMG Tracker</title>
+    <meta name="description" content="Free Realm of the Mad God white bag tracker. Check off every UT drop by dungeon, filter by difficulty and type, and see your completion.">
+    <link rel="canonical" href="https://rotmgtracker.com/whitebags">
+    <meta name="theme-color" content="#121212">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ROTMG Tracker">
+    <meta property="og:title" content="RotMG White Bag Tracker – Track Your Untiered Drops | ROTMG Tracker">
+    <meta property="og:description" content="Free Realm of the Mad God white bag tracker. Check off every UT drop by dungeon, filter by difficulty and type, and see your completion.">
+    <meta property="og:url" content="https://rotmgtracker.com/whitebags">
+    <meta property="og:image" content="https://rotmgtracker.com/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="rotmg sheet/whbaic.png">
 </head>
 <body>
+    <h1 class="visually-hidden">RotMG White Bag Tracker</h1>
     <div id="tooltip"></div>
     
     <div class="top-controls">
-        <input type="text" id="search-bar" placeholder="Search...">
+        <input type="text" id="search-bar" placeholder="Search items or dungeons..." aria-label="Search">
         <button id="reset-btn">Reset</button>
         
         <div class="info-wrapper">
-            <button id="info-btn">ⓘ</button>
+            <button id="info-btn" aria-label="Storage info">ⓘ</button>
             <div class="custom-tooltip">
                 <strong>Storage Info:</strong><br>
-                Your progress is saved locally in this browser. Clearing cache or history will reset your tracker!
+                Your progress is saved locally in this browser. Clearing cache or history will reset your tracker!<br><br>Use <strong>Save backup</strong> to keep a copy, or to move your progress to another device with <strong>Load backup</strong>.<br><br><span style="color:#aaa;">This site counts anonymous visits with GoatCounter (no cookies, no personal data).</span>
             </div>
         </div>
     </div>
@@ -69,7 +82,7 @@
     <footer style="margin-top: 50px; padding: 20px; border-top: 1px solid #c8a951; text-align: center; background: rgba(0,0,0,0.3);">
         <div style="margin-bottom: 15px;">
             <p style="color: #c8a951; font-weight: bold;">Enjoying the tracker?</p>
-            <a href="https://buymeacoffee.com/malimate" target="_blank" 
+            <a href="https://buymeacoffee.com/malimate" target="_blank" rel="noopener" 
                style="background: #ffc439; color: black; padding: 8px 15px; text-decoration: none; border-radius: 4px; font-weight: bold;">
                 Support the Project (Buy Me a Coffee)
             </a>
@@ -80,10 +93,14 @@
                 Send me an Email
             </a>
         </div>
+        <p style="font-size: 11px; color: #666; margin-top: 20px;">
+            Fan-made tracker. Not affiliated with DECA Games or Realm of the Mad God. Item sprites belong to their owners.
+        </p>
     </footer>
 
-    <button id="topBtn" title="Go to top">↑</button>
+    <button id="topBtn" title="Go to top" aria-label="Go to top">↑</button>
 
     <script src="script_wb.js"></script>
+    <script src="extras.js"></script>
 </body>
 </html>

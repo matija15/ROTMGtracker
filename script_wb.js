@@ -49,6 +49,32 @@ const data = [
         ]
     },
     {
+        dungeon: "Realm Whites",
+        bossImg: "rotmg sheet/dung/realm.png",
+        graves: 2,
+        items: [
+            { id: "torrential-staff", name: "Torrential Staff", img: "rotmg sheet/wh/new-torrential-staff.png", difficulty: "medium", type: "weapon" },
+            { id: "celestial-recurve", name: "Celestial Recurve", img: "rotmg sheet/wh/new-celestial-recurve.png", difficulty: "medium", type: "weapon" },
+            { id: "hama-yumi", name: "Hama Yumi", img: "rotmg sheet/wh/new-hama-yumi.png", difficulty: "medium", type: "weapon" },
+            { id: "cavalry-lance", name: "Cavalry Lance", img: "rotmg sheet/wh/new-cavalry-lance.png", difficulty: "medium", type: "weapon" },
+            { id: "mace-of-the-pumpkin-effigy", name: "Mace of the Pumpkin Effigy", img: "rotmg sheet/wh/new-mace-of-the-pumpkin-effigy.png", difficulty: "medium", type: "weapon" },
+            { id: "pirates-artillery", name: "Pirate's Artillery", img: "rotmg sheet/wh/new-pirates-artillery.png", difficulty: "medium", type: "weapon" },
+            { id: "minotaur-mace", name: "Minotaur Mace", img: "rotmg sheet/wh/new-minotaur-mace.png", difficulty: "medium", type: "weapon" },
+            { id: "rift-rippers", name: "Rift Rippers", img: "rotmg sheet/wh/new-rift-rippers.png", difficulty: "medium", type: "weapon" },
+            { id: "wrathful-conduit", name: "Wrathful Conduit", img: "rotmg sheet/wh/new-wrathful-conduit.png", difficulty: "medium", type: "weapon" },
+            { id: "cold-front", name: "Cold Front", img: "rotmg sheet/wh/new-cold-front.png", difficulty: "medium", type: "weapon" },
+            { id: "adventurers-scarf", name: "Adventurer's Scarf", img: "rotmg sheet/wh/new-adventurers-scarf.png", difficulty: "medium", type: "ability" },
+            { id: "skull-of-restless-souls", name: "Skull of Restless Souls", img: "rotmg sheet/wh/new-skull-of-restless-souls.png", difficulty: "medium", type: "ability" },
+            { id: "babel-blocks", name: "Babel Blocks", img: "rotmg sheet/wh/new-babel-blocks.png", difficulty: "medium", type: "ability" },
+            { id: "scary-stories", name: "Scary Stories", img: "rotmg sheet/wh/new-scary-stories.png", difficulty: "medium", type: "ability" },
+            { id: "obsidian-lyre", name: "Obsidian Lyre", img: "rotmg sheet/wh/new-obsidian-lyre.png", difficulty: "medium", type: "ability" },
+            { id: "generals-arsenal", name: "General's Arsenal", img: "rotmg sheet/wh/new-generals-arsenal.png", difficulty: "medium", type: "ability" },
+            { id: "barnacle-shell", name: "Barnacle Shell", img: "rotmg sheet/wh/new-barnacle-shell.png", difficulty: "medium", type: "armor" },
+            { id: "shifting-shroud", name: "Shifting Shroud", img: "rotmg sheet/wh/new-shifting-shroud.png", difficulty: "medium", type: "armor" },
+            { id: "dooms-emblem", name: "Doom's Emblem", img: "rotmg sheet/wh/new-dooms-emblem.png", difficulty: "medium", type: "ring" }
+        ]
+    },
+    {
         dungeon: "Snake Pit",
         bossImg: "rotmg sheet/dung/snake.gif",
         graves: 2.5,
@@ -187,6 +213,52 @@ const data = [
         ]
     },
     {
+        dungeon: "Realm Event Bosses",
+        bossImg: "rotmg sheet/dung/realm.png",
+        graves: 4,
+        items: [
+            { id: "dirk-of-cronus", name: "Dirk of Cronus", img: "rotmg sheet/wh/new-dirk-of-cronus.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-sword", name: "Crystal Sword", img: "rotmg sheet/wh/new-crystal-sword.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-wand", name: "Crystal Wand", img: "rotmg sheet/wh/new-crystal-wand.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-mace", name: "Crystal Mace", img: "rotmg sheet/wh/new-crystal-mace.png", difficulty: "hard", type: "weapon" },
+            { id: "ray-katana", name: "Ray Katana", img: "rotmg sheet/wh/new-ray-katana.png", difficulty: "hard", type: "weapon" },
+            { id: "barnacle-basher", name: "Barnacle Basher", img: "rotmg sheet/wh/new-barnacle-basher.png", difficulty: "hard", type: "weapon" },
+            { id: "keychain-cutlass", name: "Keychain Cutlass", img: "rotmg sheet/wh/new-keychain-cutlass.png", difficulty: "hard", type: "weapon" },
+            { id: "shield-of-ogmur", name: "Shield of Ogmur", img: "rotmg sheet/wh/new-shield-of-ogmur.png", difficulty: "hard", type: "ability" },
+            { id: "helm-of-the-juggernaut", name: "Helm of the Juggernaut", img: "rotmg sheet/wh/new-helm-of-the-juggernaut.png", difficulty: "hard", type: "ability" },
+            { id: "seal-of-blasphemous-prayer", name: "Seal of Blasphemous Prayer", img: "rotmg sheet/wh/new-seal-of-blasphemous-prayer.png", difficulty: "hard", type: "ability" },
+            { id: "orb-of-conflict", name: "Orb of Conflict", img: "rotmg sheet/wh/new-orb-of-conflict.png", difficulty: "hard", type: "ability" },
+            { id: "trap-of-the-vile-spirit", name: "Trap of the Vile Spirit", img: "rotmg sheet/wh/new-trap-of-the-vile-spirit.png", difficulty: "hard", type: "ability" },
+            { id: "tablet-of-the-kings-avatar", name: "Tablet of the King's Avatar", img: "rotmg sheet/wh/new-tablet-of-the-kings-avatar.png", difficulty: "hard", type: "ability" },
+            { id: "kageboshi", name: "Kageboshi", img: "rotmg sheet/wh/new-kageboshi.png", difficulty: "hard", type: "ability" },
+            { id: "quiver-of-thunder", name: "Quiver of Thunder", img: "rotmg sheet/wh/new-quiver-of-thunder.png", difficulty: "hard", type: "ability" }
+        ]
+    },
+    {
+        dungeon: "Alien Invasion",
+        bossImg: "rotmg sheet/dung/alien-invasion.gif",
+        graves: 4,
+        items: [
+            { id: "miniature-alien-generator", name: "Miniature Alien Generator", img: "rotmg sheet/wh/new-miniature-alien-generator.png", difficulty: "hard", type: "ability" },
+            { id: "fitted-protective-matrix", name: "Fitted Protective Matrix", img: "rotmg sheet/wh/new-fitted-protective-matrix.png", difficulty: "hard", type: "armor" },
+            { id: "magic-protective-matrix", name: "Magic Protective Matrix", img: "rotmg sheet/wh/new-magic-protective-matrix.png", difficulty: "hard", type: "armor" },
+            { id: "heavy-protective-matrix", name: "Heavy Protective Matrix", img: "rotmg sheet/wh/new-heavy-protective-matrix.png", difficulty: "hard", type: "armor" }
+        ]
+    },
+    {
+        dungeon: "Battle for the Nexus",
+        bossImg: "rotmg sheet/dung/battle-nexus.png",
+        graves: 4,
+        items: [
+            { id: "sunshine-shiv", name: "Sunshine Shiv", img: "rotmg sheet/wh/new-sunshine-shiv.png", difficulty: "hard", type: "weapon" },
+            { id: "robobow", name: "Robobow", img: "rotmg sheet/wh/new-robobow.png", difficulty: "hard", type: "weapon" },
+            { id: "koalapow", name: "KoalaPOW", img: "rotmg sheet/wh/new-koalapow.png", difficulty: "hard", type: "weapon" },
+            { id: "spice-wand", name: "Spice Wand", img: "rotmg sheet/wh/new-spice-wand.png", difficulty: "hard", type: "weapon" },
+            { id: "dr-swordsworth", name: "Dr. Swordsworth", img: "rotmg sheet/wh/new-dr-swordsworth.png", difficulty: "hard", type: "weapon" },
+            { id: "arbiters-wrath", name: "Arbiter's Wrath", img: "rotmg sheet/wh/new-arbiters-wrath.png", difficulty: "hard", type: "weapon" }
+        ]
+    },
+    {
         dungeon: "Haunted Cemetery",
         bossImg: "rotmg sheet/dung/hace.gif",
         graves: 4.5,
@@ -308,7 +380,10 @@ const data = [
             { id: "tipsy-topper", name: "Tipsy Topper", img: "rotmg sheet/wh/tito.png", difficulty: "medium", type: "ability" },
             { id: "double-vision-darts", name: "Double Vision Darts", img: "rotmg sheet/wh/dovd.png", difficulty: "medium", type: "ability" },
             { id: "cask-corslet", name: "Cask Corslet", img: "rotmg sheet/wh/caco.png", difficulty: "medium", type: "armor" },
-            { id: "brewers-bangle", name: "Brewer's Bangle", img: "rotmg sheet/wh/brba.png", difficulty: "medium", type: "ring" }
+            { id: "brewers-bangle", name: "Brewer's Bangle", img: "rotmg sheet/wh/brba.png", difficulty: "medium", type: "ring" },
+            { id: "deadly-keg", name: "Deadly Keg", img: "rotmg sheet/wh/new-deadly-keg.png", difficulty: "medium", type: "ability" },
+            { id: "greaterhosen", name: "Greaterhosen", img: "rotmg sheet/wh/new-greaterhosen.png", difficulty: "medium", type: "armor" },
+            { id: "mighty-stein", name: "Mighty Stein", img: "rotmg sheet/wh/new-mighty-stein.png", difficulty: "medium", type: "ring" }
         ]
     },
     {
@@ -903,7 +978,7 @@ document.getElementById("type-filter")?.addEventListener("change", executeGlobal
 document.getElementById("missing-filter")?.addEventListener("change", executeGlobalFilters);
 
 document.getElementById('reset-btn')?.addEventListener('click', () => {
-    if (confirm("Are you sure? This will wipe all your progress!")) { data.forEach(s => s.items.forEach(i => localStorage.removeItem(i.id))); location.reload(); }
+    if (confirm("Reset all White Bags progress? (ST Sets and Shiny stay saved)")) { data.forEach(s => s.items.forEach(i => localStorage.removeItem(i.id))); location.reload(); }
 });
 
 document.getElementById("topBtn")?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
