@@ -53,6 +53,21 @@ const data = [
         bossImg: "rotmg sheet/dung/realm.png",
         graves: 2,
         items: [
+            { id: "dirk-of-cronus", name: "Dirk of Cronus", img: "rotmg sheet/wh/new-dirk-of-cronus.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-sword", name: "Crystal Sword", img: "rotmg sheet/wh/new-crystal-sword.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-wand", name: "Crystal Wand", img: "rotmg sheet/wh/new-crystal-wand.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-mace", name: "Crystal Mace", img: "rotmg sheet/wh/new-crystal-mace.png", difficulty: "hard", type: "weapon" },
+            { id: "ray-katana", name: "Ray Katana", img: "rotmg sheet/wh/new-ray-katana.png", difficulty: "hard", type: "weapon" },
+            { id: "barnacle-basher", name: "Barnacle Basher", img: "rotmg sheet/wh/new-barnacle-basher.png", difficulty: "hard", type: "weapon" },
+            { id: "keychain-cutlass", name: "Keychain Cutlass", img: "rotmg sheet/wh/new-keychain-cutlass.png", difficulty: "hard", type: "weapon" },
+            { id: "shield-of-ogmur", name: "Shield of Ogmur", img: "rotmg sheet/wh/new-shield-of-ogmur.png", difficulty: "hard", type: "ability" },
+            { id: "helm-of-the-juggernaut", name: "Helm of the Juggernaut", img: "rotmg sheet/wh/new-helm-of-the-juggernaut.png", difficulty: "hard", type: "ability" },
+            { id: "seal-of-blasphemous-prayer", name: "Seal of Blasphemous Prayer", img: "rotmg sheet/wh/new-seal-of-blasphemous-prayer.png", difficulty: "hard", type: "ability" },
+            { id: "orb-of-conflict", name: "Orb of Conflict", img: "rotmg sheet/wh/new-orb-of-conflict.png", difficulty: "hard", type: "ability" },
+            { id: "trap-of-the-vile-spirit", name: "Trap of the Vile Spirit", img: "rotmg sheet/wh/new-trap-of-the-vile-spirit.png", difficulty: "hard", type: "ability" },
+            { id: "tablet-of-the-kings-avatar", name: "Tablet of the King's Avatar", img: "rotmg sheet/wh/new-tablet-of-the-kings-avatar.png", difficulty: "hard", type: "ability" },
+            { id: "kageboshi", name: "Kageboshi", img: "rotmg sheet/wh/new-kageboshi.png", difficulty: "hard", type: "ability" },
+            { id: "quiver-of-thunder", name: "Quiver of Thunder", img: "rotmg sheet/wh/new-quiver-of-thunder.png", difficulty: "hard", type: "ability" },
             { id: "torrential-staff", name: "Torrential Staff", img: "rotmg sheet/wh/new-torrential-staff.png", difficulty: "medium", type: "weapon" },
             { id: "celestial-recurve", name: "Celestial Recurve", img: "rotmg sheet/wh/new-celestial-recurve.png", difficulty: "medium", type: "weapon" },
             { id: "hama-yumi", name: "Hama Yumi", img: "rotmg sheet/wh/new-hama-yumi.png", difficulty: "medium", type: "weapon" },
@@ -71,7 +86,7 @@ const data = [
             { id: "generals-arsenal", name: "General's Arsenal", img: "rotmg sheet/wh/new-generals-arsenal.png", difficulty: "medium", type: "ability" },
             { id: "barnacle-shell", name: "Barnacle Shell", img: "rotmg sheet/wh/new-barnacle-shell.png", difficulty: "medium", type: "armor" },
             { id: "shifting-shroud", name: "Shifting Shroud", img: "rotmg sheet/wh/new-shifting-shroud.png", difficulty: "medium", type: "armor" },
-            { id: "dooms-emblem", name: "Doom's Emblem", img: "rotmg sheet/wh/new-dooms-emblem.png", difficulty: "medium", type: "ring" }
+            { id: "dooms-emblem", name: "Doom's Emblem", img: "rotmg sheet/wh/new-dooms-emblem.png", difficulty: "medium", type: "ring" },
         ]
     },
     {
@@ -210,28 +225,6 @@ const data = [
             { id: "tome-of-purification", name: "Tome of Purification", img: "rotmg sheet/wh/toop.png", difficulty: "medium", type: "ability" },
             { id: "chasuble-of-holy-light", name: "Chasuble of Holy Light", img: "rotmg sheet/wh/cohl.png", difficulty: "medium", type: "armor" },
             { id: "ring-of-divine-faith", name: "Ring of Divine Faith", img: "rotmg sheet/wh/rodf.png", difficulty: "medium", type: "ring" }
-        ]
-    },
-    {
-        dungeon: "Realm Event Bosses",
-        bossImg: "rotmg sheet/dung/realm.png",
-        graves: 4,
-        items: [
-            { id: "dirk-of-cronus", name: "Dirk of Cronus", img: "rotmg sheet/wh/new-dirk-of-cronus.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-sword", name: "Crystal Sword", img: "rotmg sheet/wh/new-crystal-sword.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-wand", name: "Crystal Wand", img: "rotmg sheet/wh/new-crystal-wand.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-mace", name: "Crystal Mace", img: "rotmg sheet/wh/new-crystal-mace.png", difficulty: "hard", type: "weapon" },
-            { id: "ray-katana", name: "Ray Katana", img: "rotmg sheet/wh/new-ray-katana.png", difficulty: "hard", type: "weapon" },
-            { id: "barnacle-basher", name: "Barnacle Basher", img: "rotmg sheet/wh/new-barnacle-basher.png", difficulty: "hard", type: "weapon" },
-            { id: "keychain-cutlass", name: "Keychain Cutlass", img: "rotmg sheet/wh/new-keychain-cutlass.png", difficulty: "hard", type: "weapon" },
-            { id: "shield-of-ogmur", name: "Shield of Ogmur", img: "rotmg sheet/wh/new-shield-of-ogmur.png", difficulty: "hard", type: "ability" },
-            { id: "helm-of-the-juggernaut", name: "Helm of the Juggernaut", img: "rotmg sheet/wh/new-helm-of-the-juggernaut.png", difficulty: "hard", type: "ability" },
-            { id: "seal-of-blasphemous-prayer", name: "Seal of Blasphemous Prayer", img: "rotmg sheet/wh/new-seal-of-blasphemous-prayer.png", difficulty: "hard", type: "ability" },
-            { id: "orb-of-conflict", name: "Orb of Conflict", img: "rotmg sheet/wh/new-orb-of-conflict.png", difficulty: "hard", type: "ability" },
-            { id: "trap-of-the-vile-spirit", name: "Trap of the Vile Spirit", img: "rotmg sheet/wh/new-trap-of-the-vile-spirit.png", difficulty: "hard", type: "ability" },
-            { id: "tablet-of-the-kings-avatar", name: "Tablet of the King's Avatar", img: "rotmg sheet/wh/new-tablet-of-the-kings-avatar.png", difficulty: "hard", type: "ability" },
-            { id: "kageboshi", name: "Kageboshi", img: "rotmg sheet/wh/new-kageboshi.png", difficulty: "hard", type: "ability" },
-            { id: "quiver-of-thunder", name: "Quiver of Thunder", img: "rotmg sheet/wh/new-quiver-of-thunder.png", difficulty: "hard", type: "ability" }
         ]
     },
     {
