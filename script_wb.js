@@ -87,6 +87,11 @@ const data = [
             { id: "barnacle-shell", name: "Barnacle Shell", img: "rotmg sheet/wh/new-barnacle-shell.png", difficulty: "medium", type: "armor" },
             { id: "shifting-shroud", name: "Shifting Shroud", img: "rotmg sheet/wh/new-shifting-shroud.png", difficulty: "medium", type: "armor" },
             { id: "dooms-emblem", name: "Doom's Emblem", img: "rotmg sheet/wh/new-dooms-emblem.png", difficulty: "medium", type: "ring" },
+            { id: "bloodbath-blade", name: "Bloodbath Blade", img: "rotmg sheet/wh/bloodbath-blade.png", difficulty: "medium", type: "weapon" },
+            { id: "evolutionary-records", name: "Evolutionary Records", img: "rotmg sheet/wh/evolutionary-records.png", difficulty: "medium", type: "ability" },
+            { id: "pollen-incendiary", name: "Pollen Incendiary", img: "rotmg sheet/wh/pollen-incendiary.png", difficulty: "medium", type: "ability" },
+            { id: "runes-of-knowledge", name: "Runes of Knowledge", img: "rotmg sheet/wh/runes-of-knowledge.png", difficulty: "medium", type: "ability" },
+            { id: "cloak-of-the-deep", name: "Cloak of the Deep", img: "rotmg sheet/wh/cloak-of-the-deep.png", difficulty: "medium", type: "ability" },
         ]
     },
     {

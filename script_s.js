@@ -62,7 +62,24 @@ const data = [
             { id: "adventurers-scarf-s", name: "Adventurer's Scarf", img: "rotmg sheet/sh/new-adventurers-scarf.png", difficulty: "medium", type: "ability" },
             { id: "skull-of-restless-souls-s", name: "Skull of Restless Souls", img: "rotmg sheet/sh/new-skull-of-restless-souls.png", difficulty: "medium", type: "ability" },
             { id: "shifting-shroud-s", name: "Shifting Shroud", img: "rotmg sheet/sh/new-shifting-shroud.png", difficulty: "medium", type: "armor" },
-            { id: "dooms-emblem-s", name: "Doom's Emblem", img: "rotmg sheet/sh/new-dooms-emblem.png", difficulty: "medium", type: "ring" }
+            { id: "dooms-emblem-s", name: "Doom's Emblem", img: "rotmg sheet/sh/new-dooms-emblem.png", difficulty: "medium", type: "ring" },
+            { id: "dirk-of-cronus-s", name: "Dirk of Cronus", img: "rotmg sheet/sh/new-dirk-of-cronus.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-sword-s", name: "Crystal Sword", img: "rotmg sheet/sh/new-crystal-sword.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-wand-s", name: "Crystal Wand", img: "rotmg sheet/sh/new-crystal-wand.png", difficulty: "hard", type: "weapon" },
+            { id: "crystal-mace-s", name: "Crystal Mace", img: "rotmg sheet/sh/new-crystal-mace.png", difficulty: "hard", type: "weapon" },
+            { id: "ray-katana-s", name: "Ray Katana", img: "rotmg sheet/sh/new-ray-katana.png", difficulty: "hard", type: "weapon" },
+            { id: "barnacle-basher-s", name: "Barnacle Basher", img: "rotmg sheet/sh/new-barnacle-basher.png", difficulty: "hard", type: "weapon" },
+            { id: "shield-of-ogmur-s", name: "Shield of Ogmur", img: "rotmg sheet/sh/new-shield-of-ogmur.png", difficulty: "hard", type: "ability" },
+            { id: "helm-of-the-juggernaut-s", name: "Helm of the Juggernaut", img: "rotmg sheet/sh/new-helm-of-the-juggernaut.png", difficulty: "hard", type: "ability" },
+            { id: "seal-of-blasphemous-prayer-s", name: "Seal of Blasphemous Prayer", img: "rotmg sheet/sh/new-seal-of-blasphemous-prayer.png", difficulty: "hard", type: "ability" },
+            { id: "orb-of-conflict-s", name: "Orb of Conflict", img: "rotmg sheet/sh/new-orb-of-conflict.png", difficulty: "hard", type: "ability" },
+            { id: "trap-of-the-vile-spirit-s", name: "Trap of the Vile Spirit", img: "rotmg sheet/sh/new-trap-of-the-vile-spirit.png", difficulty: "hard", type: "ability" },
+            { id: "kageboshi-s", name: "Kageboshi", img: "rotmg sheet/sh/new-kageboshi.png", difficulty: "hard", type: "ability" },
+            { id: "quiver-of-thunder-s", name: "Quiver of Thunder", img: "rotmg sheet/sh/new-quiver-of-thunder.png", difficulty: "hard", type: "ability" },
+            { id: "bloodbath-blade", name: "Bloodbath Blade", img: "rotmg sheet/sh/bloodbath-blade.png", difficulty: "medium", type: "weapon" },
+            { id: "evolutionary-records", name: "Evolutionary Records", img: "rotmg sheet/sh/evolutionary-records.png", difficulty: "medium", type: "ability" },
+            { id: "pollen-incendiary", name: "Pollen Incendiary", img: "rotmg sheet/sh/pollen-incendiary.png", difficulty: "medium", type: "ability" },
+            { id: "runes-of-knowledge", name: "Runes of Knowledge", img: "rotmg sheet/wh/runes-of-knowledge.png", difficulty: "medium", type: "ability" },
         ]
     },
     {
@@ -201,26 +218,6 @@ const data = [
             { id: "purification-tome-s", name: "Tome of Purification", img: "rotmg sheet/sh/puri.png", difficulty: "medium", type: "ability" },
             { id: "holy-light-chasuble-s", name: "Chasuble of Holy Light", img: "rotmg sheet/sh/cohl.png", difficulty: "medium", type: "armor" },
             { id: "divine-faith-ring-s", name: "Ring of Divine Faith", img: "rotmg sheet/sh/rodf.png", difficulty: "medium", type: "ring" },
-        ]
-    },
-    {
-        dungeon: "Realm Event Bosses",
-        bossImg: "rotmg sheet/dung/realm.png",
-        graves: 4,
-        items: [
-            { id: "dirk-of-cronus-s", name: "Dirk of Cronus", img: "rotmg sheet/sh/new-dirk-of-cronus.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-sword-s", name: "Crystal Sword", img: "rotmg sheet/sh/new-crystal-sword.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-wand-s", name: "Crystal Wand", img: "rotmg sheet/sh/new-crystal-wand.png", difficulty: "hard", type: "weapon" },
-            { id: "crystal-mace-s", name: "Crystal Mace", img: "rotmg sheet/sh/new-crystal-mace.png", difficulty: "hard", type: "weapon" },
-            { id: "ray-katana-s", name: "Ray Katana", img: "rotmg sheet/sh/new-ray-katana.png", difficulty: "hard", type: "weapon" },
-            { id: "barnacle-basher-s", name: "Barnacle Basher", img: "rotmg sheet/sh/new-barnacle-basher.png", difficulty: "hard", type: "weapon" },
-            { id: "shield-of-ogmur-s", name: "Shield of Ogmur", img: "rotmg sheet/sh/new-shield-of-ogmur.png", difficulty: "hard", type: "ability" },
-            { id: "helm-of-the-juggernaut-s", name: "Helm of the Juggernaut", img: "rotmg sheet/sh/new-helm-of-the-juggernaut.png", difficulty: "hard", type: "ability" },
-            { id: "seal-of-blasphemous-prayer-s", name: "Seal of Blasphemous Prayer", img: "rotmg sheet/sh/new-seal-of-blasphemous-prayer.png", difficulty: "hard", type: "ability" },
-            { id: "orb-of-conflict-s", name: "Orb of Conflict", img: "rotmg sheet/sh/new-orb-of-conflict.png", difficulty: "hard", type: "ability" },
-            { id: "trap-of-the-vile-spirit-s", name: "Trap of the Vile Spirit", img: "rotmg sheet/sh/new-trap-of-the-vile-spirit.png", difficulty: "hard", type: "ability" },
-            { id: "kageboshi-s", name: "Kageboshi", img: "rotmg sheet/sh/new-kageboshi.png", difficulty: "hard", type: "ability" },
-            { id: "quiver-of-thunder-s", name: "Quiver of Thunder", img: "rotmg sheet/sh/new-quiver-of-thunder.png", difficulty: "hard", type: "ability" }
         ]
     },
     {
