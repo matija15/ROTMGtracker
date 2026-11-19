@@ -306,7 +306,12 @@ const data = [
             { id: "coral-venom-trap", name: "Coral Venom Trap", img: "rotmg sheet/wh/covt.png", difficulty: "medium", type: "ability" },
             { id: "coral-silk-armor", name: "Coral Silk Armor", img: "rotmg sheet/wh/cosa.png", difficulty: "medium", type: "armor" },
             { id: "sharktooth-sigil", name: "Sharktooth Sigil", img: "rotmg sheet/wh/shsi.png", difficulty: "medium", type: "ability" },
-            { id: "coral-ring", name: "Coral Ring", img: "rotmg sheet/wh/coral.png", difficulty: "medium", type: "ring" }
+            { id: "coral-ring", name: "Coral Ring", img: "rotmg sheet/wh/coral.png", difficulty: "medium", type: "ring" },
+            { id: "coral-juice-refinery", name: "Coral Juice Refinery", img: "rotmg sheet/wh/coral-juice-refinery.png", difficulty: "medium", type: "ability" },
+            { id: "squidver", name: "Squidver", img: "rotmg sheet/wh/squidver.png", difficulty: "medium", type: "ability" },
+            { id: "gem-of-tenderness", name: "Gem of Tenderness", img: "rotmg sheet/wh/gem-of-tenderness.png", difficulty: "medium", type: "ring" },
+            { id: "gem-of-adoration", name: "Gem of Adoration", img: "rotmg sheet/wh/gem-of-adoration.png", difficulty: "medium", type: "ring" },
+            { id: "soulful-affection", name: "Soulful Affection", img: "rotmg sheet/wh/soulful-affection.png", difficulty: "medium", type: "ring" }
         ]
     },
     {
