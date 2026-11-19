@@ -263,10 +263,7 @@ const data = [
             { id: "coral-venom-trap-s", name: "Coral Venom Trap", img: "rotmg sheet/sh/covet.png", difficulty: "medium", type: "ability" },
             { id: "coral-silk-armor-s", name: "Coral Silk Armor", img: "rotmg sheet/sh/silkarmor.png", difficulty: "medium", type: "armor" },
             { id: "coral-ring-s", name: "Coral Ring", img: "rotmg sheet/sh/corit.png", difficulty: "medium", type: "ring" },
-            { id: "sharktooth-sigil-s", name: "Sharktooth Sigil", img: "rotmg sheet/sh/sharktooth-sigil.png", difficulty: "medium", type: "ability" },
-            { id: "gem-of-tenderness-s", name: "Gem of Tenderness", img: "rotmg sheet/sh/gem-of-tenderness.png", difficulty: "medium", type: "ring" },
-            { id: "gem-of-adoration-s", name: "Gem of Adoration", img: "rotmg sheet/sh/gem-of-adoration.png", difficulty: "medium", type: "ring" },
-            { id: "soulful-affection-s", name: "Soulful Affection", img: "rotmg sheet/sh/soulful-affection.png", difficulty: "medium", type: "ring" }
+            { id: "sharktooth-sigil-s", name: "Sharktooth Sigil", img: "rotmg sheet/sh/sharktooth-sigil.png", difficulty: "medium", type: "ability" }
         ]
     },
     {
@@ -631,7 +628,10 @@ const data = [
         bossImg: "rotmg sheet/dung/bega.png",
         graves: 5.5,
         items: [
-            { id: "perennial-cranium-s", name: "Perennial Cranium", img: "rotmg sheet/sh/pecr.png", difficulty: "medium", type: "ability" }
+            { id: "perennial-cranium-s", name: "Perennial Cranium", img: "rotmg sheet/sh/pecr.png", difficulty: "medium", type: "ability" },
+            { id: "gem-of-tenderness-s", name: "Gem of Tenderness", img: "rotmg sheet/sh/gem-of-tenderness.png", difficulty: "medium", type: "ring" },
+            { id: "gem-of-adoration-s", name: "Gem of Adoration", img: "rotmg sheet/sh/gem-of-adoration.png", difficulty: "medium", type: "ring" },
+            { id: "soulful-affection-s", name: "Soulful Affection", img: "rotmg sheet/sh/soulful-affection.png", difficulty: "medium", type: "ring" }
         ]
     },
     {
